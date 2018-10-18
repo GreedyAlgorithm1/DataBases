@@ -11,6 +11,8 @@ def get_url(url, file_name):
 		file.write(name + '\n')
 		#print(line)
 	file.close()
+	# Return the name of populated file
+	return file_name
 
 
 def main():
@@ -18,4 +20,6 @@ def main():
 	file_name = sys.argv[2]
 	get_url(url, file_name)
 
-main()
+# Prevents code from executing if being imported
+if __name__ == "__main__":
+	main()
