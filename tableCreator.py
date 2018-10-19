@@ -1,11 +1,10 @@
 import webScraper
 import sys
+import random
 
-def createTable(tableName, attributes):
+def getListOfValues(attributes):
     #TODO
     # Get all lists needed to populate the table (how?)
-    # Create .csv file with attributes at top
-    # Populate the columns with corresponding names/elements
 
     listOfTuples = list(range(len(attributes)))
     maxAttributes = len(attributes)
@@ -22,7 +21,8 @@ def createTable(tableName, attributes):
         # Ask how many values we should extract (Can be omitted)
         while True:
             try:
-                limit = int(input("Enter how many values to enter: "), 10)
+                message = "Enter how many values to enter: "
+                limit = int(input(message), 10)
                 if(limit <= 0):
                     print("Please enter a positive integer")
                     continue
@@ -52,14 +52,39 @@ def createTable(tableName, attributes):
             continue
 
         print(listToAppend)
-        print()
-        print()
-        print()
         listOfTuples[attributeIndex] = listToAppend
-        print(listOfTuples)
         attributeIndex += 1
 
-            
+    return listOfTuples
+
+
+def randomizeTuples(listOfTuples):
+
+    elementsCount = len(listOfTuples)
+
+    while True:
+        try:
+            message = "Enter how many random tuples to make: "
+            randomTuplesCount = int(input(message), 10)
+            if(randomTuplesCount <= 10):
+                print("At least more than 10 tuples")
+                continue
+            else:
+                break
+        except ValueError as exception:
+            print("Please enter a valid integer")
+            print(exception)
+
+    randomizedTuples = list(range(randomTuplesCount))
+
+    for tupleCount in range(randomTuplesCount):
+        row = []
+        for attributeCount in range(elementsCount):
+            row.append(random.choice(listOfTuples[attributeCount]))
+        randomizedTuples[tupleCount] = row  
+
+    return  randomizedTuples  
+
 
 
 def main():
@@ -116,10 +141,17 @@ def main():
         print("Empty list not valid")
         exit()
 
-    print(tableName)
-    print(attributes)
+    listOfTuples = getListOfValues(attributes)
 
-    createTable(tableName, attributes)
+    print()
+    print(listOfTuples)
+
+    randomizedTuplesList = randomizeTuples(listOfTuples)
+
+    print(randomizedTuplesList)
+
+    # Create .csv file with attributes at top
+    # Populate the columns with corresponding names/elements
 
 if __name__ == "__main__":
     main()
