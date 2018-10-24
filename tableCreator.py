@@ -50,7 +50,7 @@ def getListOfValues(attributes):
             print(exception)
             continue
 
-        print(listToAppend)
+        #print(listToAppend)
         listOfTuples[attributeIndex] = listToAppend
         attributeIndex += 1
 
@@ -85,11 +85,8 @@ def randomizeTuples(listOfTuples):
         for attributeCount in range(elementsCount):
             row.append(random.choice(listOfTuples[attributeCount]))
         
-        if(row in randomizedTuples):
-            print("Duplicte random tuple...")
-            print(row)
-            print()
-        else:
+        # Avoid duplicate (redundant) data
+        if(row not in randomizedTuples):
             randomizedTuples[tupleCount] = row  
             tupleCount += 1
 
@@ -159,31 +156,39 @@ def populateTable(tableName, attributes, randomizedTuplesList):
     
     with open(tableName, "w") as file:
         csvfile = csv.writer(file, delimiter=',')
+        attributes.insert(0, "Id")
         csvfile.writerow(attributes)
-        tupleRow = 0
+        idIndex = 0
+        idNum = 1
         for row in randomizedTuplesList:
+            randomizedTuplesList[idIndex].insert(0, idNum)
             csvfile.writerow(row)
-            tupleRow += 1
+            idNum += 1
+            idIndex += 1
 
 def main():
 
     tableName = sys.argv[1]
 
+    if (tableName == "sells.csv"):
+        print("Must create table with beer price logic.")
+    elif (tableName == "Make Transaction"):
+        print("Must create relation table with hours & price logic.")
+
+    
+
     attributes = getAttributes()
 
     listOfTuples = getListOfValues(attributes)
 
-    print()
-    print(listOfTuples)
+    # print()
+    # print(listOfTuples)
 
     randomizedTuplesList = randomizeTuples(listOfTuples)
 
     populateTable(tableName, attributes, randomizedTuplesList)
 
-    print(randomizedTuplesList)
-
-    # Create .csv file with attributes at top
-    # Populate the columns with corresponding names/elements
+    # print(randomizedTuplesList)
 
 if __name__ == "__main__":
     main()
