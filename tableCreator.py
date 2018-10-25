@@ -130,6 +130,51 @@ def randomizeRelationTuples(relationShipTuples):
 
     return randomizedRelationTuples
 
+def randomizeFrequentsTuples(relationShipTuples):
+    
+    # Get input on how many random tuples to make
+    while True:
+        try:
+            message = "Enter how many random tuples to make: "
+            randomTuplesCount = int(input(message), 10)
+            if(randomTuplesCount <= 2):
+                print("At least more than 2 tuples")
+                continue
+            else:
+                break
+        except ValueError as exception:
+            print("Please enter a valid integer")
+            print(exception)
+
+    tupleCount = 0
+
+    randomizedRelationTuples = []
+
+    # Check logic for states
+
+    while tupleCount < randomTuplesCount:
+        row = []
+        for keysCount in range(len(relationShipTuples)):
+            row.append(random.choice(relationShipTuples[keysCount]))
+
+        #print("Before flatten")
+        #print(row)
+        #print()
+        #print("After flatten")
+        flattenRow = [item for sublist in row for item in sublist]
+        #print(flattenRow)
+
+        if(flattenRow[2] != flattenRow[4]):
+            #print("{} != {}".format(flattenRow[2], flattenRow[4]))
+            continue
+
+        if(flattenRow not in randomizedRelationTuples):
+            flattenRow.pop(4)
+            randomizedRelationTuples.append(flattenRow)
+            tupleCount += 1
+
+    return randomizedRelationTuples
+
 # Get attributes from user
 def getAttributes():
 
@@ -276,10 +321,28 @@ def extractCSVTuples():
 
 def createRelationTable(tableName):
 
-    if (tableName == "sells.csv"):
+    if (tableName == "Sells.csv"):
         print("Must create table with beer price logic.")
+        return
+    elif (tableName == "Frequents.csv" or tableName == "--testFile.csv"):
+        print("Must create table with frequents logic")
+        relationShipTuples = extractCSVTuples()
+
+        relationAttributes = relationShipTuples.pop()
+        checkStates = relationAttributes.pop(4)
+        print(relationAttributes)
+        print(checkStates)
+        #print(relationAttributes)
+        #print (relationShipTuples)
+        randomizedRelationShipTuples = randomizeFrequentsTuples(relationShipTuples)
+        #print()
+        #print(randomizedRelationShipTuples)
+
+        populateRelationTable(tableName, relationAttributes, randomizedRelationShipTuples)
+        return
     elif (tableName == "Make Transaction"):
         print("Must create relation table with hours & price logic.")
+        return
 
     relationShipTuples = extractCSVTuples()
 
@@ -303,7 +366,7 @@ def main():
     
     if(response == "y" or response == "yes"):  
         createRelationTable(tableName)
-        exit()
+        return
 
     attributes = getAttributes()
 
