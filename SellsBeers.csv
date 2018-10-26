@@ -1,0 +1,506 @@
+Id,BarName,Name,Price
+56,The Bada Bing,Point Horizon Wheat,9.41
+29,The White Swan,New Glarus Spotted Cow Ale,5.89
+138,The Pool Hall,Sundance Amber Ale,8.36
+58,The Griffin,BridgePort India Pale Ale,5.51
+9,Maxwell's Nightclub,Miller High Life Light,5.96
+147,The Queen's Haemorrhoids,Capital Vintage Ale,7.11
+43,Romanoff's,Old Milwaukee,7.76
+119,Vesuvio,St-Ambroise Oatmeal Stout,11.31
+28,Chatsubo,St Peter's Wheat Ale,6.92
+89,The Last Chance Saloon,Old Milwaukee,7.04
+118,Poison,Southern Pecan Brown ale,6.99
+86,The Prancing Pony,Full Sail IPA,6.99
+107,Verdant,Victoria Bitter,3.31
+80,Ten Forward,Left Hand Black Jack Porter,2.74
+67,Palace Saloon,Geary's Pale Ale,4.85
+3,Friendsy's,Boddingtons Pub Ale,2.31
+37,The Cat & Fiddle,Smuttynose Wheat Wine,11.91
+87,The Rose & Crown,Fordham Dunkel Weiss,8.12
+122,Archie Bunker's Place,Lakeport Honey Lager,8.12
+34,The Winchester Tavern,BridgePort India Pale Ale,5.89
+35,The Rabennest,Victoria Bitter,3.29
+63,The George III,Russian River Blind Pig IPA,10.43
+103,Palace Saloon,Geary's Pale Ale,4.92
+127,The Tall Ship,New Glarus Spotted Cow Ale,5.62
+3,Friendsy's,Fordham Dunkel Weiss,8.57
+67,Palace Saloon,Lakeport Honey Lager,8.57
+49,The Red Pony,New Glarus Spotted Cow Ale,5.26
+16,Dagmar,Aass Juleol Premium,2.01
+79,The Goat,Station House Red Ale,8.64
+27,Mystic Grill,Left Hand Polestar Pilsner,4.68
+57,The Broken Stool,Full Sail IPA,4.68
+150,The White Swan,Old Milwaukee,7.04
+108,The Admiral Benbow Inn,Left Hand Black Jack Porter,2.38
+40,The Globe and Anchor,Boulevard Unfiltered Wheat Beer,11.51
+8,The Old Pink Dog,BridgePort India Pale Ale,5.31
+84,The Dog and Partridge,Steamworks Summer Kolsch,9.97
+27,Mystic Grill,Tuppers' Hop Pocket Pils,5.56
+35,The Rabennest,Lakefront Bridge Burner,11.52
+128,The Crown,Xingu Black Beer,7.41
+105,The Boatman,Pinstripe Red Ale,8.13
+150,The White Swan,Saint Arnold Brown Ale,11.17
+136,Dal Riata,BridgePort India Pale Ale,5.28
+103,Palace Saloon,Southern Pecan Brown ale,6.39
+38,MacLaren's,Quail Springs India Pale Ale,7.66
+79,The Goat,Full Sail IPA,7.66
+24,Colonial Taphouse,Fordham Dunkel Weiss,8.09
+141,Charlie's,Russian River Blind Pig IPA,10.81
+141,Charlie's,Drake's Expedition Ale,3.6
+59,The Winchester Tavern,St Peter's Wheat Ale,6.45
+48,Cocktails and Dreams,Lakefront Bridge Burner,11.2
+148,Poor Richard's,Lakefront Bridge Burner,11.81
+107,Verdant,SweetWater Summer Hummer,11.57
+66,World's End Tavern,Tuppers' Hop Pocket Pils,5.2
+38,MacLaren's,Southern Pecan Brown ale,6.42
+45,The Queen Victoria,St Peter's Wheat Ale,6.27
+123,The Smack,Lakefront Bridge Burner,11.25
+90,Table Salt,River Rock Ale,4.04
+83,Double Deuce,Lakeport Honey Lager,4.04
+34,The Winchester Tavern,Pinstripe Red Ale,8.21
+12,The Drunken Clam,Widmer Snowplow Milk Stout,2.85
+80,Ten Forward,Station House Red Ale,8.66
+91,Dorsia,Drake's Expedition Ale,3.82
+48,Cocktails and Dreams,Xingu Black Beer,7.32
+19,Flanagan's Cocktails & Dreams,Steamworks Summer Kolsch,9.53
+76,Bunnys,St-Ambroise Oatmeal Stout,11.77
+70,Cheers,Station House Red Ale,8.88
+120,Quark's,Capital Maibock,7.65
+132,The Learned Goat,St-Ambroise Oatmeal Stout,11.71
+56,The Bada Bing,Boddingtons Pub Ale,2.37
+42,Dagmar,Old Rasputin Russian Imperial Stout,8.09
+134,The Orange Tree,River Rock Ale,4.06
+132,The Learned Goat,Victoria Bitter,3.95
+66,World's End Tavern,Rogue Dry Hopped Saint Rogue Red Ale,5.47
+139,The Lamb & Flag,Spaten Munchen Dunkel,6.01
+61,The Ballroom,Point Horizon Wheat,9.1
+97,The Domain of the King Bar and Grille,Fred,9.1
+148,Poor Richard's,Pinstripe Red Ale,8.99
+33,Rowlf's Tavern,Old Rasputin Russian Imperial Stout,8.49
+53,Trees Lounge,Fred,8.49
+131,The Mayhew,Widmer Snowplow Milk Stout,2.03
+99,Cohan's,Fred,2.03
+79,The Goat,Russian River Blind Pig IPA,10.67
+45,The Queen Victoria,Old Rasputin Russian Imperial Stout,8.06
+66,World's End Tavern,Boris,3.1
+54,Salieri's Bar,Strongarm Ruby Red Ale,3.1
+74,"Starlight Roof, The Green Lantern",Russian River Blind Pig IPA,10.82
+117,The Snug,Miller High Life Light,5.5
+14,The Gold Room at the Overlook Hotel,Victoria Bitter,3.93
+21,The Oblivion Bar,Russian River Blind Pig IPA,11.0
+109,Bodarks Bus Stop Restaurant,Lakeport Honey Lager,11.0
+127,The Tall Ship,Southern Pecan Brown ale,6.85
+144,Tavern,Boulevard Unfiltered Wheat Beer,11.05
+136,Dal Riata,Engel Gold,6.6
+6,Merlotte's Bar and Grill,Fordham Dunkel Weiss,8.97
+144,Tavern,Engel Gold,6.92
+123,The Smack,Fred,6.92
+31,The Feathers,SweetWater Summer Hummer,11.63
+62,Volpe's,Strongarm Ruby Red Ale,11.63
+106,The Grey Mare,Capital Vintage Ale,7.18
+61,The Ballroom,Hops Clearwater Light,11.76
+17,Milk,Old Rasputin Russian Imperial Stout,8.04
+47,Wandin Valley RSL,Old Rasputin Russian Imperial Stout,8.06
+113,The Orange Tree,Spaten Munchen Dunkel,6.37
+31,The Feathers,Southern Pecan Brown ale,6.18
+150,The White Swan,Tripel Karmeliet,4.66
+126,New Found Out,Southern Pecan Brown ale,6.45
+120,Quark's,Tripel Karmeliet,4.45
+2,The Bamboo Lounge,Smuttynose Wheat Wine,11.83
+2,The Bamboo Lounge,Spaten Munchen Dunkel,6.89
+131,The Mayhew,Hitachino Nest Weizen,10.46
+147,The Queen's Haemorrhoids,Capital Vintage Ale,7.39
+29,The White Swan,Saint Arnold Brown Ale,11.68
+4,Daddy Crab Leg's Crab Shack,Smuttynose Wheat Wine,11.84
+85,O'Malley's Bar,Capital Maibock,7.74
+53,Trees Lounge,Xingu Black Beer,7.23
+120,Quark's,Capital Maibock,7.44
+48,Cocktails and Dreams,Pinstripe Red Ale,8.58
+126,New Found Out,Boris,3.42
+68,Charlie's,Steamworks Summer Kolsch,9.33
+132,The Learned Goat,Victoria Bitter,3.72
+4,Daddy Crab Leg's Crab Shack,BridgePort India Pale Ale,5.32
+119,Vesuvio,Boris,3.85
+122,Archie Bunker's Place,Victoria Bitter,3.84
+111,Tabard,Moosbacher Schwarze Weisse,6.06
+115,The Dog and Partridge,Rogue Dry Hopped Saint Rogue Red Ale,5.19
+86,The Prancing Pony,Engel Gold,6.83
+15,The Broken Stool,Geary's Pale Ale,4.27
+130,The Blue Parrot,Miller High Life Light,5.37
+115,The Dog and Partridge,Steamworks Summer Kolsch,9.8
+54,Salieri's Bar,New Glarus Two Women New,3.88
+33,Rowlf's Tavern,Drake's Expedition Ale,3.87
+103,Palace Saloon,Strongarm Ruby Red Ale,3.87
+41,Gary's Old Towne Tavern,Station House Red Ale,8.15
+150,The White Swan,Steamworks Summer Kolsch,9.58
+49,The Red Pony,Lakefront Bridge Burner,11.02
+32,John McRory's Place,Moosbacher Schwarze Weisse,6.89
+10,Kennedy's,Smuttynose Wheat Wine,11.13
+110,Torchy's,Boulevard Unfiltered Wheat Beer,11.86
+75,The Pool Hall,Old Rasputin Russian Imperial Stout,8.43
+99,Cohan's,Geary's Pale Ale,4.32
+101,The Shakespeare,Tripel Karmeliet,4.76
+138,The Pool Hall,Boulevard Unfiltered Wheat Beer,11.89
+68,Charlie's,Tripel Karmeliet,4.13
+22,The Drunken Dragon Inn,Fordham Dunkel Weiss,8.66
+63,The George III,Old Rasputin Russian Imperial Stout,8.36
+22,The Drunken Dragon Inn,Hitachino Nest Weizen,10.49
+44,Bellefleur's Bar and Grill,Drake's Expedition Ale,3.37
+51,The Brass Lantern,Aass Juleol Premium,2.62
+133,Maxwell's Nightclub,St-Ambroise Oatmeal Stout,11.4
+22,The Drunken Dragon Inn,Moosbacher Schwarze Weisse,6.9
+55,Tavern of Time,Aass Juleol Premium,2.87
+14,The Gold Room at the Overlook Hotel,St-Ambroise Oatmeal Stout,11.73
+110,Torchy's,Strong Suffolk Vintage Ale,8.65
+70,Cheers,Drake's Expedition Ale,3.06
+23,The Winchester Club,Victoria Bitter,3.38
+111,Tabard,Widmer Snowplow Milk Stout,2.22
+106,The Grey Mare,Boddingtons Pub Ale,2.2
+46,"The Horse & Groom, Cottington",Boris,3.76
+23,The Winchester Club,Sundance Amber Ale,8.38
+76,Bunnys,New Glarus Two Women New,3.88
+60,The Long Branch Saloon,Southern Pecan Brown ale,6.83
+118,Poison,Tuppers' Hop Pocket Pils,5.6
+11,The Armada Room,Boulevard Unfiltered Wheat Beer,11.42
+120,Quark's,Miller High Life Light,5.93
+84,The Dog and Partridge,Point Horizon Wheat,9.84
+140,Milk,Pinstripe Red Ale,8.92
+34,The Winchester Tavern,Spaten Munchen Dunkel,6.7
+81,The Prancing Pony,Rogue Dry Hopped Saint Rogue Red Ale,5.15
+127,The Tall Ship,Abita Wheat,3.93
+83,Double Deuce,River Rock Ale,4.1
+62,Volpe's,Abita Wheat,3.02
+105,The Boatman,Hitachino Nest Weizen,10.9
+37,The Cat & Fiddle,Abita Turbodog,4.42
+93,Elfsong Tavern,Left Hand Black Jack Porter,2.73
+59,The Winchester Tavern,Boris,3.83
+12,The Drunken Clam,Lakefront Bridge Burner,11.99
+22,The Drunken Dragon Inn,Capital Maibock,7.01
+126,New Found Out,Point Horizon Wheat,9.01
+109,Bodarks Bus Stop Restaurant,Old Rasputin Russian Imperial Stout,8.82
+36,The Drunken Huntsman,Saint Arnold Brown Ale,11.86
+118,Poison,Hitachino Nest Weizen,10.18
+10,Kennedy's,Left Hand Black Jack Porter,2.48
+136,Dal Riata,Lakefront Bridge Burner,11.63
+32,John McRory's Place,Boris,3.25
+55,Tavern of Time,Point Horizon Wheat,9.83
+17,Milk,Tuppers' Hop Pocket Pils,5.89
+53,Trees Lounge,St Peter's Wheat Ale,6.54
+35,The Rabennest,Boddingtons Pub Ale,2.82
+45,The Queen Victoria,Left Hand Polestar Pilsner,4.78
+121,O'Malley's,Tripel Karmeliet,4.45
+46,"The Horse & Groom, Cottington",Full Sail IPA,4.45
+139,The Lamb & Flag,Lakeport Honey Lager,4.45
+127,The Tall Ship,Boulevard Unfiltered Wheat Beer,11.41
+106,The Grey Mare,Drake's Expedition Ale,3.15
+59,The Winchester Tavern,Fred,3.15
+124,Gallow's End Tavern,Strong Suffolk Vintage Ale,8.58
+53,Trees Lounge,Geary's Pale Ale,4.61
+45,The Queen Victoria,Tuppers' Hop Pocket Pils,5.63
+77,Lusty Leopard,Pinstripe Red Ale,8.42
+106,The Grey Mare,Left Hand Polestar Pilsner,4.96
+100,The Oblivion Bar,Capital Vintage Ale,7.95
+75,The Pool Hall,Drake's Expedition Ale,3.56
+127,The Tall Ship,Fordham Dunkel Weiss,8.94
+66,World's End Tavern,Fred,8.94
+11,The Armada Room,Spaten Munchen Dunkel,6.38
+109,Bodarks Bus Stop Restaurant,Old Rasputin Russian Imperial Stout,8.95
+145,The Rabennest,Moosbacher Schwarze Weisse,6.17
+57,The Broken Stool,Boddingtons Pub Ale,2.81
+122,Archie Bunker's Place,Miller High Life Light,5.93
+27,Mystic Grill,Tripel Karmeliet,4.87
+14,The Gold Room at the Overlook Hotel,Left Hand Polestar Pilsner,4.58
+131,The Mayhew,Strong Suffolk Vintage Ale,8.3
+105,The Boatman,Widmer Snowplow Milk Stout,2.84
+36,The Drunken Huntsman,Victoria Bitter,3.42
+129,"The Horse & Groom, Cottington",Boddingtons Pub Ale,2.53
+33,Rowlf's Tavern,Hitachino Nest Weizen,10.71
+69,The Red Boot Pub,Strongarm Ruby Red Ale,10.71
+91,Dorsia,Spaten Munchen Dunkel,6.18
+91,Dorsia,Strong Suffolk Vintage Ale,8.17
+20,Gary's Old Towne Tavern,Pinstripe Red Ale,8.17
+134,The Orange Tree,Saint Arnold Brown Ale,11.79
+76,Bunnys,Old Milwaukee,7.02
+117,The Snug,Capital Maibock,7.57
+28,Chatsubo,Drake's Expedition Ale,3.71
+72,The Wicked Kiss,Steamworks Summer Kolsch,9.39
+80,Ten Forward,Lakefront Bridge Burner,11.46
+119,Vesuvio,Sundance Amber Ale,8.65
+118,Poison,Point Horizon Wheat,9.46
+24,Colonial Taphouse,Steamworks Summer Kolsch,9.95
+117,The Snug,Capital Vintage Ale,7.8
+57,The Broken Stool,Russian River Blind Pig IPA,10.67
+139,The Lamb & Flag,Strongarm Ruby Red Ale,10.67
+50,The Last Resort,Old Rasputin Russian Imperial Stout,8.94
+40,The Globe and Anchor,Russian River Blind Pig IPA,10.23
+106,The Grey Mare,Saint Arnold Brown Ale,11.55
+31,The Feathers,Lakefront Bridge Burner,11.65
+59,The Winchester Tavern,Tripel Karmeliet,4.22
+124,Gallow's End Tavern,Capital Vintage Ale,7.74
+124,Gallow's End Tavern,Russian River Blind Pig IPA,10.09
+117,The Snug,Russian River Blind Pig IPA,10.91
+132,The Learned Goat,Left Hand Polestar Pilsner,4.37
+108,The Admiral Benbow Inn,Left Hand Black Jack Porter,2.77
+145,The Rabennest,Moosbacher Schwarze Weisse,6.82
+66,World's End Tavern,Capital Maibock,7.1
+107,Verdant,Smuttynose Wheat Wine,11.52
+147,The Queen's Haemorrhoids,Hops Clearwater Light,11.53
+38,MacLaren's,Boulevard Unfiltered Wheat Beer,11.11
+76,Bunnys,Southern Pecan Brown ale,6.72
+116,Four Shields Tavern,Tuppers' Hop Pocket Pils,5.18
+127,The Tall Ship,Steamworks Summer Kolsch,9.38
+102,Thunderbrew Distillery,Abita Turbodog,4.14
+69,The Red Boot Pub,Tuppers' Hop Pocket Pils,5.44
+90,Table Salt,St Peter's Wheat Ale,6.0
+23,The Winchester Club,Aass Juleol Premium,2.24
+85,O'Malley's Bar,Rogue Dry Hopped Saint Rogue Red Ale,5.84
+108,The Admiral Benbow Inn,Boddingtons Pub Ale,2.63
+23,The Winchester Club,Hops Clearwater Light,11.44
+139,The Lamb & Flag,Fordham Dunkel Weiss,8.13
+110,Torchy's,New Glarus Spotted Cow Ale,5.77
+66,World's End Tavern,Fordham Dunkel Weiss,8.78
+125,The Gold Room at the Overlook Hotel,BridgePort India Pale Ale,5.19
+15,The Broken Stool,Russian River Blind Pig IPA,10.35
+59,The Winchester Tavern,Left Hand Polestar Pilsner,4.2
+110,Torchy's,Engel Gold,6.88
+66,World's End Tavern,Abita Wheat,3.55
+49,The Red Pony,Boris,3.75
+75,The Pool Hall,Russian River Blind Pig IPA,10.4
+21,The Oblivion Bar,Left Hand Polestar Pilsner,4.25
+143,Stonefire Tavern,Spaten Munchen Dunkel,6.71
+13,Merlotte's Bar and Grill,Fred,6.71
+142,The Vigilante,Left Hand Black Jack Porter,2.27
+115,The Dog and Partridge,Victoria Bitter,3.99
+109,Bodarks Bus Stop Restaurant,Old Rasputin Russian Imperial Stout,8.3
+31,The Feathers,Tuppers' Hop Pocket Pils,5.33
+138,The Pool Hall,Drake's Expedition Ale,3.9
+84,The Dog and Partridge,Saint Arnold Brown Ale,11.2
+102,Thunderbrew Distillery,Rogue Dry Hopped Saint Rogue Red Ale,5.41
+121,O'Malley's,River Rock Ale,4.73
+60,The Long Branch Saloon,Miller High Life Light,5.17
+5,The Grind & Jolt Cafe,Victoria Bitter,3.65
+36,The Drunken Huntsman,BridgePort India Pale Ale,5.21
+113,The Orange Tree,Strong Suffolk Vintage Ale,8.02
+94,Kavanagh's Irish Pub,Moosbacher Schwarze Weisse,6.79
+9,Maxwell's Nightclub,Lakefront Bridge Burner,11.04
+146,The Old Haunt,Hitachino Nest Weizen,10.23
+137,The Tropicana,Smuttynose Wheat Wine,11.9
+63,The George III,Russian River Blind Pig IPA,10.97
+136,Dal Riata,Abita Wheat,3.98
+117,The Snug,Fred,3.98
+67,Palace Saloon,St Peter's Wheat Ale,6.81
+91,Dorsia,Quail Springs India Pale Ale,7.58
+86,The Prancing Pony,Full Sail IPA,7.58
+28,Chatsubo,Widmer Snowplow Milk Stout,2.59
+76,Bunnys,New Glarus Two Women New,3.73
+136,Dal Riata,Engel Gold,6.59
+56,The Bada Bing,Spaten Munchen Dunkel,6.4
+123,The Smack,Fred,6.4
+146,The Old Haunt,Full Sail IPA,6.4
+102,Thunderbrew Distillery,St Peter's Wheat Ale,6.29
+29,The White Swan,Abita Wheat,3.72
+69,The Red Boot Pub,Xingu Black Beer,7.84
+60,The Long Branch Saloon,New Glarus Spotted Cow Ale,5.8
+42,Dagmar,Miller High Life Light,5.79
+45,The Queen Victoria,Lakeport Honey Lager,5.79
+39,Milliway's,Aass Juleol Premium,2.56
+36,The Drunken Huntsman,Strongarm Ruby Red Ale,2.56
+10,Kennedy's,Fred,2.56
+53,Trees Lounge,Capital Vintage Ale,7.58
+94,Kavanagh's Irish Pub,Capital Vintage Ale,7.15
+23,The Winchester Club,Rogue Dry Hopped Saint Rogue Red Ale,5.99
+39,Milliway's,Strongarm Ruby Red Ale,5.99
+96,P3,Moosbacher Schwarze Weisse,6.4
+116,Four Shields Tavern,Boris,3.81
+144,Tavern,Tuppers' Hop Pocket Pils,5.09
+46,"The Horse & Groom, Cottington",New Glarus Spotted Cow Ale,5.5
+141,Charlie's,Miller High Life Light,5.57
+78,Callahan's Place,St-Ambroise Oatmeal Stout,11.25
+50,The Last Resort,BridgePort India Pale Ale,5.47
+7,The Punch Tavern,St Peter's Wheat Ale,6.96
+60,The Long Branch Saloon,Old Milwaukee,7.43
+28,Chatsubo,Lakeport Honey Lager,7.43
+110,Torchy's,Capital Vintage Ale,7.21
+7,The Punch Tavern,Pinstripe Red Ale,8.77
+103,Palace Saloon,River Rock Ale,4.52
+104,Puzzles,Southern Pecan Brown ale,6.99
+76,Bunnys,Strong Suffolk Vintage Ale,8.61
+132,The Learned Goat,Abita Turbodog,4.88
+91,Dorsia,St-Ambroise Oatmeal Stout,11.5
+121,O'Malley's,Tripel Karmeliet,4.67
+89,The Last Chance Saloon,Hops Clearwater Light,11.04
+46,"The Horse & Groom, Cottington",Abita Wheat,3.42
+147,The Queen's Haemorrhoids,Steamworks Summer Kolsch,9.59
+21,The Oblivion Bar,Boulevard Unfiltered Wheat Beer,11.03
+33,Rowlf's Tavern,Left Hand Polestar Pilsner,4.52
+65,The Armada Room,New Glarus Spotted Cow Ale,5.13
+77,Lusty Leopard,Smuttynose Wheat Wine,11.11
+45,The Queen Victoria,Tripel Karmeliet,4.98
+147,The Queen's Haemorrhoids,Abita Turbodog,4.87
+24,Colonial Taphouse,Left Hand Black Jack Porter,2.2
+45,The Queen Victoria,Full Sail IPA,2.2
+61,The Ballroom,Steamworks Summer Kolsch,9.9
+74,"Starlight Roof, The Green Lantern",Lakefront Bridge Burner,11.49
+67,Palace Saloon,Tripel Karmeliet,4.39
+28,Chatsubo,Pinstripe Red Ale,8.96
+124,Gallow's End Tavern,Steamworks Summer Kolsch,9.04
+90,Table Salt,Lakefront Bridge Burner,11.98
+85,O'Malley's Bar,Spaten Munchen Dunkel,6.91
+141,Charlie's,Xingu Black Beer,7.52
+139,The Lamb & Flag,Capital Maibock,7.2
+131,The Mayhew,Quail Springs India Pale Ale,7.64
+8,The Old Pink Dog,Boris,3.62
+101,The Shakespeare,Quail Springs India Pale Ale,7.09
+97,The Domain of the King Bar and Grille,Moosbacher Schwarze Weisse,6.18
+87,The Rose & Crown,Pinstripe Red Ale,8.53
+50,The Last Resort,Capital Vintage Ale,7.51
+72,The Wicked Kiss,SweetWater Summer Hummer,11.81
+65,The Armada Room,Hitachino Nest Weizen,10.68
+136,Dal Riata,Miller High Life Light,5.55
+63,The George III,Capital Maibock,7.29
+79,The Goat,Lakefront Bridge Burner,11.1
+88,Poison,Miller High Life Light,5.01
+78,Callahan's Place,Strong Suffolk Vintage Ale,8.64
+146,The Old Haunt,Sundance Amber Ale,8.49
+106,The Grey Mare,Quail Springs India Pale Ale,7.13
+67,Palace Saloon,Lakeport Honey Lager,7.13
+51,The Brass Lantern,Hitachino Nest Weizen,10.49
+44,Bellefleur's Bar and Grill,Lakefront Bridge Burner,11.3
+79,The Goat,Drake's Expedition Ale,3.06
+81,The Prancing Pony,Sundance Amber Ale,8.95
+30,Daddy Crab Leg's Crab Shack,Point Horizon Wheat,9.08
+21,The Oblivion Bar,Widmer Snowplow Milk Stout,2.45
+71,The Blue Oyster Bar,Spaten Munchen Dunkel,6.57
+91,Dorsia,Left Hand Black Jack Porter,2.29
+91,Dorsia,Lakefront Bridge Burner,11.49
+39,Milliway's,Sundance Amber Ale,8.95
+67,Palace Saloon,Hitachino Nest Weizen,10.99
+54,Salieri's Bar,Rogue Dry Hopped Saint Rogue Red Ale,5.16
+125,The Gold Room at the Overlook Hotel,Abita Wheat,3.07
+27,Mystic Grill,Full Sail IPA,3.07
+58,The Griffin,Old Milwaukee,7.07
+134,The Orange Tree,Station House Red Ale,8.35
+61,The Ballroom,Old Rasputin Russian Imperial Stout,8.6
+51,The Brass Lantern,Full Sail IPA,8.6
+64,New York Bar,Capital Maibock,7.19
+70,Cheers,Quail Springs India Pale Ale,7.22
+44,Bellefleur's Bar and Grill,SweetWater Summer Hummer,11.56
+140,Milk,Abita Wheat,3.14
+46,"The Horse & Groom, Cottington",Steamworks Summer Kolsch,9.38
+119,Vesuvio,Fordham Dunkel Weiss,8.37
+104,Puzzles,Moosbacher Schwarze Weisse,6.88
+83,Double Deuce,Strong Suffolk Vintage Ale,8.38
+37,The Cat & Fiddle,Fred,8.38
+6,Merlotte's Bar and Grill,Spaten Munchen Dunkel,6.88
+106,The Grey Mare,SweetWater Summer Hummer,11.71
+9,Maxwell's Nightclub,SweetWater Summer Hummer,11.36
+74,"Starlight Roof, The Green Lantern",Quail Springs India Pale Ale,7.31
+8,The Old Pink Dog,Tripel Karmeliet,4.63
+31,The Feathers,Aass Juleol Premium,2.18
+51,The Brass Lantern,Old Milwaukee,7.14
+118,Poison,Xingu Black Beer,7.15
+139,The Lamb & Flag,St-Ambroise Oatmeal Stout,11.58
+128,The Crown,Rogue Dry Hopped Saint Rogue Red Ale,5.92
+42,Dagmar,Hops Clearwater Light,11.72
+82,Trees Lounge,Geary's Pale Ale,4.77
+41,Gary's Old Towne Tavern,Fred,4.77
+37,The Cat & Fiddle,Spaten Munchen Dunkel,6.59
+118,Poison,Capital Vintage Ale,7.44
+100,The Oblivion Bar,Miller High Life Light,5.75
+100,The Oblivion Bar,New Glarus Two Women New,3.74
+95,Boobies,Capital Maibock,7.54
+11,The Armada Room,Engel Gold,6.31
+66,World's End Tavern,Widmer Snowplow Milk Stout,2.48
+22,The Drunken Dragon Inn,Drake's Expedition Ale,3.75
+122,Archie Bunker's Place,Tuppers' Hop Pocket Pils,5.1
+46,"The Horse & Groom, Cottington",Boulevard Unfiltered Wheat Beer,11.08
+140,Milk,Widmer Snowplow Milk Stout,2.05
+8,The Old Pink Dog,Sundance Amber Ale,8.47
+143,Stonefire Tavern,Pinstripe Red Ale,8.81
+95,Boobies,Sundance Amber Ale,8.59
+42,Dagmar,Moosbacher Schwarze Weisse,6.77
+122,Archie Bunker's Place,Geary's Pale Ale,4.97
+137,The Tropicana,Xingu Black Beer,7.29
+29,The White Swan,Boris,3.94
+29,The White Swan,Left Hand Black Jack Porter,2.31
+98,Wurstbraterei,Southern Pecan Brown ale,6.37
+97,The Domain of the King Bar and Grille,Boddingtons Pub Ale,2.03
+110,Torchy's,Saint Arnold Brown Ale,11.87
+48,Cocktails and Dreams,Tuppers' Hop Pocket Pils,5.99
+79,The Goat,Widmer Snowplow Milk Stout,2.92
+135,Milliway's,Old Milwaukee,7.4
+26,The Dog and Dart,New Glarus Spotted Cow Ale,5.32
+85,O'Malley's Bar,Quail Springs India Pale Ale,7.04
+92,The Angler's Rest,St-Ambroise Oatmeal Stout,11.37
+92,The Angler's Rest,Miller High Life Light,5.22
+35,The Rabennest,Widmer Snowplow Milk Stout,2.63
+135,Milliway's,Boris,3.81
+46,"The Horse & Groom, Cottington",Lakeport Honey Lager,3.81
+110,Torchy's,Widmer Snowplow Milk Stout,2.96
+96,P3,Full Sail IPA,2.96
+54,Salieri's Bar,Drake's Expedition Ale,3.67
+30,Daddy Crab Leg's Crab Shack,Capital Maibock,7.81
+79,The Goat,Strongarm Ruby Red Ale,7.81
+88,Poison,Victoria Bitter,3.96
+138,The Pool Hall,Tuppers' Hop Pocket Pils,5.56
+118,Poison,Strong Suffolk Vintage Ale,8.97
+44,Bellefleur's Bar and Grill,Boris,3.25
+132,The Learned Goat,Widmer Snowplow Milk Stout,2.56
+132,The Learned Goat,Left Hand Black Jack Porter,2.48
+86,The Prancing Pony,Spaten Munchen Dunkel,6.77
+73,Stan Mikita's Donuts,BridgePort India Pale Ale,5.67
+119,Vesuvio,Boulevard Unfiltered Wheat Beer,11.56
+140,Milk,Southern Pecan Brown ale,6.39
+124,Gallow's End Tavern,Xingu Black Beer,7.51
+117,The Snug,Left Hand Black Jack Porter,2.67
+125,The Gold Room at the Overlook Hotel,Boddingtons Pub Ale,2.83
+107,Verdant,Old Rasputin Russian Imperial Stout,8.17
+38,MacLaren's,Drake's Expedition Ale,3.12
+15,The Broken Stool,St-Ambroise Oatmeal Stout,11.19
+11,The Armada Room,Lakefront Bridge Burner,11.34
+92,The Angler's Rest,Point Horizon Wheat,9.8
+149,Welsh's Bar,Capital Vintage Ale,7.27
+60,The Long Branch Saloon,Hitachino Nest Weizen,10.66
+39,Milliway's,Capital Vintage Ale,7.49
+102,Thunderbrew Distillery,Tripel Karmeliet,4.37
+45,The Queen Victoria,Left Hand Polestar Pilsner,4.63
+15,The Broken Stool,River Rock Ale,4.28
+127,The Tall Ship,St-Ambroise Oatmeal Stout,11.25
+7,The Punch Tavern,Lakeport Honey Lager,11.25
+46,"The Horse & Groom, Cottington",Boris,3.99
+117,The Snug,Pinstripe Red Ale,8.17
+67,Palace Saloon,Drake's Expedition Ale,3.4
+63,The George III,Boulevard Unfiltered Wheat Beer,11.82
+139,The Lamb & Flag,St Peter's Wheat Ale,6.01
+78,Callahan's Place,Spaten Munchen Dunkel,6.5
+68,Charlie's,Hitachino Nest Weizen,10.99
+52,Rovers Return Inn,Capital Vintage Ale,7.68
+49,The Red Pony,River Rock Ale,4.85
+90,Table Salt,Left Hand Black Jack Porter,2.09
+68,Charlie's,Pinstripe Red Ale,8.32
+139,The Lamb & Flag,Pinstripe Red Ale,8.84
+23,The Winchester Club,Abita Turbodog,4.53
+121,O'Malley's,Aass Juleol Premium,2.91
+90,Table Salt,Left Hand Black Jack Porter,2.63
+147,The Queen's Haemorrhoids,Boddingtons Pub Ale,2.47
+149,Welsh's Bar,Miller High Life Light,5.87
+101,The Shakespeare,Pinstripe Red Ale,8.22
+38,MacLaren's,River Rock Ale,4.79
+47,Wandin Valley RSL,Xingu Black Beer,7.91
+111,Tabard,Left Hand Polestar Pilsner,4.13
+3,Friendsy's,Lakefront Bridge Burner,11.38
+148,Poor Richard's,St-Ambroise Oatmeal Stout,11.8
+14,The Gold Room at the Overlook Hotel,Left Hand Black Jack Porter,2.44
+75,The Pool Hall,Moosbacher Schwarze Weisse,6.51
+16,Dagmar,Xingu Black Beer,7.83
+24,Colonial Taphouse,New Glarus Spotted Cow Ale,5.8
+75,The Pool Hall,Xingu Black Beer,7.63
+12,The Drunken Clam,Old Rasputin Russian Imperial Stout,8.84
+79,The Goat,Spaten Munchen Dunkel,6.69
+45,The Queen Victoria,Smuttynose Wheat Wine,11.39
+73,Stan Mikita's Donuts,Steamworks Summer Kolsch,9.62
+78,Callahan's Place,Capital Maibock,7.57
+11,The Armada Room,Spaten Munchen Dunkel,6.78
+86,The Prancing Pony,Engel Gold,6.79
+102,Thunderbrew Distillery,Hops Clearwater Light,11.54
+67,Palace Saloon,Abita Turbodog,4.63

@@ -284,10 +284,9 @@ def randomizeSellsTuples(relationShipTuples):
         if(flattenRow not in barSellsBeer):
             beerToAdd = flattenRow[2]
 
-            priceSold = 0
             for iterator in range(2, 12):
-                listOfBeer = beerPricesDict[iterator]
-                if(beerToAdd in item for sublist in beerPricesDict[iterator] for item in sublist):
+                listOfBeer = [item for sublist in beerPricesDict[iterator] for item in sublist]
+                if(beerToAdd in listOfBeer):
                     priceSold = random.uniform(iterator, iterator + 1)
                     priceSold = round(priceSold, 2)
                     break
@@ -389,12 +388,13 @@ def extractCSVTuples():
 
 def createRelationTable(tableName):
 
-    if (tableName == "Sells.csv") or tableName == "--testFile.csv":
+    if (tableName == "SellsBeers.csv") or tableName == "--testFile.csv":
         print("Must create table with beer price logic.")
         relationShipTuples = extractCSVTuples()
 
         relationAttributes = relationShipTuples.pop()
         relationAttributes.append("Price")
+        relationAttributes[1] = "BarName"
         print(relationAttributes)
         print (relationShipTuples)
 
