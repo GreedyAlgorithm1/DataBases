@@ -252,27 +252,23 @@ def randomizeSellsTuples(relationShipTuples):
 
 
     # Dictionary of beers at a certain price
-    beerPricesDict = {}
+    beerPricesDict = {2 : [], 3 : [], 4 : [], 5 : [], 6 : [], 7 : [], 8 : [], 9 : [], 10 : [], 11 : [], 12 : []}
     for beer in relationShipTuples[1]:
-        if(beer in beerPricesDict.values() == False):
+        if(beer not in beerPricesDict.values()):
             randomPrice = random.randint(2, 12)
-            if(beerPricesDict[randomPrice] == None):
-                beerPricesDict[randomPrice] = [beer]
-            else:
-                beerPricesDict[randomPrice].append()
+            print("Appended!")
+            beerPricesDict[randomPrice].append(beer)
         else:
             print("This means that beer is already included which shouldnt really be the case")
+
+    print(beerPricesDict)
 
     tupleCount = 0
 
     randomizedRelationTuples = []
     barSellsBeer = []
 
-    # Will contain [beer, price] in descending by price
-    beersSold = []
-
     # Check logic for item/beer prices
-
     while tupleCount < randomTuplesCount:
         row = []
         for keysCount in range(len(relationShipTuples)):
@@ -286,49 +282,22 @@ def randomizeSellsTuples(relationShipTuples):
         #print(flattenRow)
 
         if(flattenRow not in barSellsBeer):
-            beerToAdd = flattenRow[3]
+            beerToAdd = flattenRow[2]
 
             priceSold = 0
             for iterator in range(2, 12):
-                if(beerToAdd in beerPricesDict[iterator]):
-                    priceSold = beerToAdd
-
-            """# Check if beer is sold at all yet
-            if(beerToAdd not in beersSold):
-                priceForBeer = random.randint(2, 12)
-                beerPriceTuple = [beerToAdd, priceForBeer]
-                for tupleElement in beersSold:
-            
-            else:
-                priceToSell = random.randint(2, 12)
-
-                if(beerUsesLogic(beerToAdd, priceToSell, beersSold, randomizedRelationTuples) ==  False):
-                    print("Selecting another price to sell")
-                    continue
-                continue
-            """
+                listOfBeer = beerPricesDict[iterator]
+                if(beerToAdd in item for sublist in beerPricesDict[iterator] for item in sublist):
+                    priceSold = random.uniform(iterator, iterator + 1)
+                    priceSold = round(priceSold, 2)
+                    break
             barSellsBeer.append(flattenRow)
-
-            #randomizedRelationTuples.append(MUST APPEND SOMETHING)
+            flattenRow.append(priceSold)
+            randomizedRelationTuples.append(flattenRow)
             tupleCount += 1
 
     return randomizedRelationTuples
-
-def beerUsesLogic(beerToAdd, priceToSell, beersSold, randomizedRelationTuples):
-
-    for BarTupleWithBeerToAdd in randomizedRelationTuples:
-        if(BarTupleWithBeerToAdd[3] != beerToAdd):
-            continue
-        checkBarWithBeer = BarTupleWithBeerToAdd[1]
-        checkPriceWithBeer = BarTupleWithBeerToAdd[4]
-        isLessThan = False
-        isGreaterThan = False
-        for barTupleToCheck in randomizedRelationTuples:
-            if(barTupleToCheck == True):
-                if(barTupleToCheck[3] != True):
-                    return True
-    return True
-
+                    
 def populateTable(tableName, attributes, randomizedTuplesList):
     
     with open(tableName, "w") as file:
@@ -405,12 +374,14 @@ def extractCSVTuples():
                                 fileTuple[element].append(tempList[element])
                         attributeTuples.append(attribute)
                     except KeyError:
+                        counter -=1
                         print("No attribute found with: '{}'".format(attribute))
                     
                     currentFileTuple = fileTuple
 
                 relationShipTuple.append(currentFileTuple)
         except FileNotFoundError:
+            counter -= 1
             print("File not found")
 
     relationShipTuple.append(attributeTuples)
@@ -423,8 +394,13 @@ def createRelationTable(tableName):
         relationShipTuples = extractCSVTuples()
 
         relationAttributes = relationShipTuples.pop()
+        relationAttributes.append("Price")
         print(relationAttributes)
         print (relationShipTuples)
+
+        randomizedRelationShipTuples = randomizeSellsTuples(relationShipTuples)    
+
+        populateRelationTable(tableName, relationAttributes, randomizedRelationShipTuples)    
         return
     elif (tableName == "Frequents.csv" or tableName == "--testFile.csv"):
         #print("Must create table with frequents logic")
