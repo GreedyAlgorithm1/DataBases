@@ -50,7 +50,7 @@ def getAttributes():
 
         # Just to safely kill program
         if(inputAttribute == "EXIT"):
-            exit()
+            return
 
         attributes.append(inputAttribute)
 
@@ -59,7 +59,7 @@ def getAttributes():
         # Just so we dont crash later on (can be removed if we want to)
         if (attributes == []):
             print("Empty list not valid")
-            exit()
+            return
 
     return attributes
 
@@ -321,7 +321,8 @@ def randomizeSellsTuples(relationShipTuples):
         if(flattenRow not in barSellsBeer):
             beerToAdd = flattenRow[2]
 
-            for iterator in range(2, 12):
+            priceSold = 0
+            for iterator in range(2, 13):
                 listOfBeer = [item for sublist in beerPricesDict[iterator] for item in sublist]
                 if(beerToAdd in listOfBeer):
                     priceSold = random.uniform(iterator, iterator + 1)
