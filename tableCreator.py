@@ -261,12 +261,12 @@ def randomizeFrequentsTuples(relationShipTuples):
         flattenRow = [item for sublist in row for item in sublist]
         #print(flattenRow)
 
-        if(flattenRow[2] != flattenRow[4]):
+        if(flattenRow[2] != flattenRow[5]):
             #print("{} != {}".format(flattenRow[2], flattenRow[4]))
             continue
 
         if(flattenRow not in randomizedRelationTuples):
-            flattenRow.pop(4)
+            flattenRow.pop(5)
             randomizedRelationTuples.append(flattenRow)
             tupleCount += 1
 
@@ -425,7 +425,7 @@ def extractCSVTuples():
 
 def createRelationTable(tableName):
 
-    if (tableName == "SellsBeers.csv") or tableName == "--testFile.csv":
+    if (tableName == "SellsBeers.csv" or tableName == "--testFile.csv" or tableName == "SellsItems.csv"):
         print("Must create table with beer price logic.")
         relationShipTuples = extractCSVTuples()
 
@@ -445,7 +445,7 @@ def createRelationTable(tableName):
 
         relationAttributes = relationShipTuples.pop()
         # This is so that the Drinker's state show up as an attribute name
-        checkStates = relationAttributes.pop(4)
+        checkStates = relationAttributes.pop(5)
         #print(relationAttributes)
         #print(checkStates)
         #print(relationAttributes)
@@ -486,7 +486,7 @@ def main():
    #     createBarTable(tableName)
    #     return
     attributes = getAttributes()
-    if(tableName == "Bar.csv"):
+    if(tableName == "Bar.csv" or tableName == "--testFile.csv"):
         operationDays = ["Mopen", "Mclose", "Topen", "Tclose", "Wopen", "Wclose", "THopen", "THclose", "Fopen", "Fclose", "SAopen" ,"SAclose", "SUopen", "SUclose"]
         for workDays in operationDays:
             attributes.append(workDays)
