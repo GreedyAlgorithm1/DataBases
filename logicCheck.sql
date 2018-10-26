@@ -16,14 +16,15 @@ END;
 /*drinkers can't frequent bars in different state*/
 /*NOTE THIS IS ONLY DONE ON NEW INPUTS*/
 DROP FUNCTION IF EXISTS check_state
-CREATE FUNCTION check_state(drinker_inpt varchar(50), barState varchar(8)) RETURNS VARCHAR(50)
+CREATE FUNCTION check_state(drinker_input varchar, barState varchar) RETURNS VARCHAR(50)
 BEGIN
 	if ( 
 		EXISTS (
 			select state
 			from drinkers
 			where drinker_input = name and barState = state
-	) RETURN 'True'
+		)
+	) return 'True'
 	else 
 	return 'False'
 END;

@@ -3,6 +3,66 @@ import sys
 import csv
 import random
 
+# Get attributes from user
+def getAttributes():
+
+    attributes = []
+    inputAttribute = None
+
+    print()
+    print("-----Input attributes of file-----")
+    print("Type 'DONE' when finished")
+    print("Type 'RESET' to start over")
+    print("Type '-rm <attribute>' to remove an attribute")
+    print("Type 'EXIT' to kill program")
+    print()
+
+    while True:
+        
+        message = "Input Attribute: "
+        inputAttribute = input(message).rstrip()
+        inputAttribute = inputAttribute.strip()
+
+        # Check if we have more than one string
+        if(len(inputAttribute.split()) >= 2):
+            checkFlag = inputAttribute.split()[0]
+            
+            deleteAttribute = inputAttribute.split()[1]
+            if(checkFlag == "-rm"):
+                if(deleteAttribute in attributes):
+                    attributes.remove(deleteAttribute)
+                    print("Attribute removed!")
+                    print(attributes)
+                    continue
+                else:
+                    print("Attribute not in list!")
+                    continue
+       
+        # Done inputting attributes
+        if(inputAttribute == "DONE"):
+            break
+        
+        # Just to start over
+        if(inputAttribute == "RESET"):
+            attributes = []
+            print("Atributes cleared!")
+            continue
+
+        # Just to safely kill program
+        if(inputAttribute == "EXIT"):
+            exit()
+
+        attributes.append(inputAttribute)
+
+        print(attributes)
+
+        # Just so we dont crash later on (can be removed if we want to)
+        if (attributes == []):
+            print("Empty list not valid")
+            exit()
+
+    return attributes
+
 def getListOfValues(attributes):
 
     listOfTuples = list(range(len(attributes)))
@@ -175,65 +235,99 @@ def randomizeFrequentsTuples(relationShipTuples):
 
     return randomizedRelationTuples
 
-# Get attributes from user
-def getAttributes():
-
-    attributes = []
-    inputAttribute = None
-
-    print()
-    print("-----Input attributes of file-----")
-    print("Type 'DONE' when finished")
-    print("Type 'RESET' to start over")
-    print("Type '-rm <attribute>' to remove an attribute")
-    print("Type 'EXIT' to kill program")
-    print()
-
+def randomizeSellsTuples(relationShipTuples):
+     # Get input on how many random tuples to make
     while True:
-        
-        message = "Input Attribute: "
-        inputAttribute = input(message).rstrip()
-        inputAttribute = inputAttribute.strip()
+        try:
+            message = "Enter how many random tuples to make: "
+            randomTuplesCount = int(input(message), 10)
+            if(randomTuplesCount <= 2):
+                print("At least more than 2 tuples")
+                continue
+            else:
+                break
+        except ValueError as exception:
+            print("Please enter a valid integer")
+            print(exception)
 
-        # Check if we have more than one string
-        if(len(inputAttribute.split()) >= 2):
-            checkFlag = inputAttribute.split()[0]
+
+    # Dictionary of beers at a certain price
+    beerPricesDict = {}
+    for beer in relationShipTuples[1]:
+        if(beer in beerPricesDict.values() == False):
+            randomPrice = random.randint(2, 12)
+            if(beerPricesDict[randomPrice] == None):
+                beerPricesDict[randomPrice] = [beer]
+            else:
+                beerPricesDict[randomPrice].append()
+        else:
+            print("This means that beer is already included which shouldnt really be the case")
+
+    tupleCount = 0
+
+    randomizedRelationTuples = []
+    barSellsBeer = []
+
+    # Will contain [beer, price] in descending by price
+    beersSold = []
+
+    # Check logic for item/beer prices
+
+    while tupleCount < randomTuplesCount:
+        row = []
+        for keysCount in range(len(relationShipTuples)):
+            row.append(random.choice(relationShipTuples[keysCount]))
+
+        #print("Before flatten")
+        #print(row)
+        #print()
+        #print("After flatten")
+        flattenRow = [item for sublist in row for item in sublist]
+        #print(flattenRow)
+
+        if(flattenRow not in barSellsBeer):
+            beerToAdd = flattenRow[3]
+
+            priceSold = 0
+            for iterator in range(2, 12):
+                if(beerToAdd in beerPricesDict[iterator]):
+                    priceSold = beerToAdd
+
+            """# Check if beer is sold at all yet
+            if(beerToAdd not in beersSold):
+                priceForBeer = random.randint(2, 12)
+                beerPriceTuple = [beerToAdd, priceForBeer]
+                for tupleElement in beersSold:
             
-            deleteAttribute = inputAttribute.split()[1]
-            if(checkFlag == "-rm"):
-                if(deleteAttribute in attributes):
-                    attributes.remove(deleteAttribute)
-                    print("Attribute removed!")
-                    print(attributes)
+            else:
+                priceToSell = random.randint(2, 12)
+
+                if(beerUsesLogic(beerToAdd, priceToSell, beersSold, randomizedRelationTuples) ==  False):
+                    print("Selecting another price to sell")
                     continue
-                else:
-                    print("Attribute not in list!")
-                    continue
-       
-        # Done inputting attributes
-        if(inputAttribute == "DONE"):
-            break
-        
-        # Just to start over
-        if(inputAttribute == "RESET"):
-            attributes = []
-            print("Atributes cleared!")
+                continue
+            """
+            barSellsBeer.append(flattenRow)
+
+            #randomizedRelationTuples.append(MUST APPEND SOMETHING)
+            tupleCount += 1
+
+    return randomizedRelationTuples
+
+def beerUsesLogic(beerToAdd, priceToSell, beersSold, randomizedRelationTuples):
+
+    for BarTupleWithBeerToAdd in randomizedRelationTuples:
+        if(BarTupleWithBeerToAdd[3] != beerToAdd):
             continue
-
-        # Just to safely kill program
-        if(inputAttribute == "EXIT"):
-            exit()
-
-        attributes.append(inputAttribute)
-
-        print(attributes)
-
-        # Just so we dont crash later on (can be removed if we want to)
-        if (attributes == []):
-            print("Empty list not valid")
-            exit()
-
-    return attributes
+        checkBarWithBeer = BarTupleWithBeerToAdd[1]
+        checkPriceWithBeer = BarTupleWithBeerToAdd[4]
+        isLessThan = False
+        isGreaterThan = False
+        for barTupleToCheck in randomizedRelationTuples:
+            if(barTupleToCheck == True):
+                if(barTupleToCheck[3] != True):
+                    return True
+    return True
 
 def populateTable(tableName, attributes, randomizedTuplesList):
     
@@ -285,53 +379,62 @@ def extractCSVTuples():
             break
 
         currentFileTuple = []
-        with open(csvFileName, "r") as csvFile:
-            reader = csv.DictReader(csvFile)
-            data = {}
+        try:
+            with open(csvFileName, "r") as csvFile:
+                reader = csv.DictReader(csvFile)
+                data = {}
 
-            for row in reader:
-                for header, value in row.items():
-                    data.setdefault(header, list()).append(value)
+                for row in reader:
+                    for header, value in row.items():
+                        data.setdefault(header, list()).append(value)
 
-            fileTuple = []
-            while True:
-                message = "Enter key to include to relation table (Enter 'DONE' when done): "
-                attribute = input(message)
-                if(attribute == "DONE"):
-                    break
-                try:
-                    if (fileTuple == []):
-                        dataList = data[attribute]
-                        for element in range(len(dataList)):
-                            fileTuple.append([dataList[element]])
-                    else:
-                        tempList = data[attribute]
-                        for element in range(len(fileTuple)):
-                            fileTuple[element].append(tempList[element])
-                    attributeTuples.append(attribute)
-                except KeyError:
-                    print("No attribute found with: '{}'".format(attribute))
-                
-                currentFileTuple = fileTuple
+                fileTuple = []
+                while True:
+                    message = "Enter key to include to relation table (Enter 'DONE' when done): "
+                    attribute = input(message)
+                    if(attribute == "DONE"):
+                        break
+                    try:
+                        if (fileTuple == []):
+                            dataList = data[attribute]
+                            for element in range(len(dataList)):
+                                fileTuple.append([dataList[element]])
+                        else:
+                            tempList = data[attribute]
+                            for element in range(len(fileTuple)):
+                                fileTuple[element].append(tempList[element])
+                        attributeTuples.append(attribute)
+                    except KeyError:
+                        print("No attribute found with: '{}'".format(attribute))
+                    
+                    currentFileTuple = fileTuple
 
-            relationShipTuple.append(currentFileTuple)
+                relationShipTuple.append(currentFileTuple)
+        except FileNotFoundError:
+            print("File not found")
 
     relationShipTuple.append(attributeTuples)
     return relationShipTuple
 
 def createRelationTable(tableName):
 
-    if (tableName == "Sells.csv"):
+    if (tableName == "Sells.csv") or tableName == "--testFile.csv":
         print("Must create table with beer price logic.")
-        return
-    elif (tableName == "Frequents.csv" or tableName == "--testFile.csv"):
-        print("Must create table with frequents logic")
         relationShipTuples = extractCSVTuples()
 
         relationAttributes = relationShipTuples.pop()
-        checkStates = relationAttributes.pop(4)
         print(relationAttributes)
-        print(checkStates)
+        print (relationShipTuples)
+        return
+    elif (tableName == "Frequents.csv" or tableName == "--testFile.csv"):
+        #print("Must create table with frequents logic")
+        relationShipTuples = extractCSVTuples()
+
+        relationAttributes = relationShipTuples.pop()
+        # This is so that the Drinker's state show up as an attribute name
+        checkStates = relationAttributes.pop(4)
+        #print(relationAttributes)
+        #print(checkStates)
         #print(relationAttributes)
         #print (relationShipTuples)
         randomizedRelationShipTuples = randomizeFrequentsTuples(relationShipTuples)
@@ -340,7 +443,7 @@ def createRelationTable(tableName):
 
         populateRelationTable(tableName, relationAttributes, randomizedRelationShipTuples)
         return
-    elif (tableName == "Make Transaction"):
+    elif (tableName == "Make Transaction" or tableName == "--testFile.csv"):
         print("Must create relation table with hours & price logic.")
         return
 
