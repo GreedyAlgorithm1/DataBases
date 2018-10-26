@@ -152,43 +152,6 @@ def randomizeTuples(listOfTuples):
 
     return  randomizedTuples  
 
-def randomizeBarsTuples(listOfTuples):
-
-    elementsCount = len(listOfTuples) - 14
-
-    # Get input on how many random tuples to make
-    while True:
-        try:
-            message = "Enter how many random tuples to make: "
-            randomTuplesCount = int(input(message), 10)
-            if(randomTuplesCount <= 2):
-                print("At least more than 2 tuples")
-                continue
-            else:
-                break
-        except ValueError as exception:
-            print("Please enter a valid integer")
-            print(exception)
-
-    randomizedTuples = list(range(randomTuplesCount))
-
-    tupleCount = 0
-
-    # Create random (distinct) tuples and insert them into final list
-    while tupleCount < randomTuplesCount:
-        row = []
-        for attributeCount in range(elementsCount):
-            row.append(random.choice(listOfTuples[attributeCount]))
-        
-        # Avoid duplicate (redundant) data
-        if(row not in randomizedTuples):
-            for attributeCount in range(2, 16):
-                row.append(random.choice(listOfTuples[attributeCount]))
-            randomizedTuples[tupleCount] = row  
-            tupleCount += 1
-
-    return  randomizedTuples 
-
 def randomizeRelationTuples(relationShipTuples):
 
     # Get input on how many random tuples to make
@@ -483,23 +446,13 @@ def main():
         createRelationTable(tableName)
         return
 
-  #  if(tableName == "Bar.csv" or tableName == "--testFile.csv"):
-   #     createBarTable(tableName)
-   #     return
     attributes = getAttributes()
-    if(tableName == "Bar.csv" or tableName == "--testFile.csv"):
-        operationDays = ["Mopen", "Mclose", "Topen", "Tclose", "Wopen", "Wclose", "THopen", "THclose", "Fopen", "Fclose", "SAopen" ,"SAclose", "SUopen", "SUclose"]
-        for workDays in operationDays:
-            attributes.append(workDays)
     listOfTuples = getListOfValues(attributes)
 
     # print()
     # print(listOfTuples)
-
-    if(tableName == "Bar.csv" or tableName == "--testFile.csv"):
-        randomizedTuplesList = randomizeBarsTuples(listOfTuples)
-    else:
-        randomizedTuplesList = randomizeTuples(listOfTuples)
+    
+    randomizedTuplesList = randomizeTuples(listOfTuples)
 
     populateTable(tableName, attributes, randomizedTuplesList)
 
