@@ -3,14 +3,14 @@ import random
 import sys
 import csv
 
-def populateTable(tableName, randomizedTuplesList, amountPerDrinker):
+def populateTable(tableName, tuplesList, amountPerDrinker):
 
     if(tableName == "Bills.csv"):
         attributes = ["BillId", "BarId", "DrinkerId", "TimeIssued", "Item", "Quantity", "Price"]
     else:
-        attributes = ["tid", "BarId", "DrinkerId" "SubTotal", "Tax", "Tip", "Total"]
+        attributes = ["tid", "BarId", "DrinkerId", "SubTotal", "Tax", "Tip", "Total"]
 
-    if(amountPerDrinker != []):
+    if(amountPerDrinker != None):
         with open(tableName, "w") as file:
             csvfile = csv.writer(file, delimiter=',')
             csvfile.writerow(attributes)
@@ -20,14 +20,22 @@ def populateTable(tableName, randomizedTuplesList, amountPerDrinker):
                 ordersPrinted = 0
 
                 while ordersPrinted < orderAmount:
-                    randomizedTuplesList[relationsTupleIndex].insert(0, billID)
-                    csvfile.writerow(randomizedTuplesList[relationsTupleIndex])
+                    tuplesList[relationsTupleIndex].insert(0, billID)
+                    csvfile.writerow(tuplesList[relationsTupleIndex])
                     relationsTupleIndex += 1
                     ordersPrinted += 1
                 
                 billID += 1
     else:
-        pass
+        with open(tableName, "w") as file:
+            csvFile = csv.writer(file, delimiter=',')
+            csvFile.writerow(attributes)
+            transactionID = 1
+            for row in tuplesList:
+                row.insert(0, transactionID)
+                csvFile.writerow(row)
+                transactionID += 1
+
 
 def getRandomTuplesCount():
     while True:
@@ -197,8 +205,64 @@ def createBillsTable(tableName):
 
     populateTable(tableName, randomizedTupleList, amounterPerDrinker)
 
+def extractBillsCSVTuples():
+    csvFileName = "Bills.csv"
+    billsTuplesList = []
+
+    try:
+        with open(csvFileName, "r") as csvFile:
+            reader = csv.reader(csvFile)
+            currentList = list(reader)
+            currentList.pop(0)
+            billsTuplesList.append(currentList)
+    except FileNotFoundError:
+        print("File '{}' not found!".format(csvFileName))
+        return None
+    
+    return billsTuplesList
+
+def getTransactionsFromBills(billsTuplesLists):
+
+    amountOfBills = len(billsTuplesLists)
+    billIndex = 0
+    tipRate = 0.2
+    taxRate = 0.07
+
+    transactionTuples = []
+
+    while billIndex < amountOfBills:
+        subtotal = 0
+        if(billIndex + 1 != amountOfBills):
+           while billsTuplesLists[billIndex][0] == billsTuplesLists[billIndex + 1][0]:
+               billOrderTuple = billsTuplesLists[billIndex]
+               subtotal += float(billOrderTuple[6])
+               billIndex += 1
+        
+        billOrderTuple = billsTuplesLists[billIndex]
+        barID = billOrderTuple[1]
+        drinkeriD = billOrderTuple[2]
+        subtotal = float(billOrderTuple[6])
+        round(subtotal, 2)
+        tax = round(float(subtotal) * float(taxRate), 2)
+        tip = round(float(subtotal) * float(tipRate), 2)
+        total = round(subtotal + tax + tip, 2)
+        transactionTuples.append([barID, drinkeriD, subtotal, tax, tip, total])
+        billIndex += 1
+
+    return transactionTuples
+
+
 def createTransactionsTable(tableName):
-    pass
+    
+    billsTuplesLists2 = extractBillsCSVTuples()
+    billsTuplesLists = billsTuplesLists2.pop()
+
+    if(billsTuplesLists == None):
+        print("No element ins Bills List")
+        return
+
+    transactionTuples = getTransactionsFromBills(billsTuplesLists)    
+    populateTable(tableName, transactionTuples, None)
 
 def main():
     
