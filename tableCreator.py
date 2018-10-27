@@ -291,7 +291,9 @@ def randomizeSellsTuples(relationShipTuples):
                     priceSold = random.uniform(iterator, iterator + 1)
                     priceSold = round(priceSold, 2)
                     break
-            barSellsBeer.append(flattenRow)
+                    
+            barSellsBeerTuple = flattenRow.copy()
+            barSellsBeer.append(barSellsBeerTuple)
             flattenRow.append(priceSold)
             randomizedRelationTuples.append(flattenRow)
             tupleCount += 1

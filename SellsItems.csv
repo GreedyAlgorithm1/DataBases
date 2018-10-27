@@ -1,251 +1,506 @@
 Id,BarName,Name,Price
-196,The Six Jolly Fellowship Porters,Cheesburger,6.08
-72,The Leaky Cauldron,Coke,4.83
-21,The Lamb & Flag,Wings,4.77
-197,The Broken Drum/The Mended Drum,Coke,4.88
-81,Midnight Bell,Dirty Shirley,11.63
-176,"Mos Eisley cantina, aka ""Chalmun's Cantina""",Fried Chocolate Tarantula,9.84
-202,SaxonwoldShebeen,Water,5.64
-8,The Rose & Crown,Wings,4.79
-12,The Lizard's Head,Fried Chocolate Tarantula,9.88
-1,Brady Pub,Fried Chocolate Tarantula,9.43
-216,The Bronze,Dirty Shirley,11.87
-249,The Count's Arms,Fried Chocolate Tarantula,9.84
-124,The Raven,Ice Tea,9.24
-106,The Frozen Hearth,Hotdog,2.39
-62,Greely's,Wings,4.38
-9,Boobies,Wings,4.32
-109,John McRory's Place,Coke,4.78
-64,Kelcy's,Fried Chocolate Tarantula,9.73
-138,The Slaughtered Lamb,Hotdog,2.16
-156,The Ballroom,Wings,4.2
-184,The Admiral Benbow Inn,Fries,4.2
-90,The Angler's Rest,Hotdog,2.03
-169,Jenny's,Fries,2.03
-74,The Iron Horse,Water,5.35
-188,Fool and Bladder,Wings,4.77
-196,The Six Jolly Fellowship Porters,Fries,4.77
-130,Milk,Fried Chocolate Tarantula,9.91
-206,Table Salt,Coke,4.68
-186,The Bloated Float Inn,Hotdog,2.76
-214,Silver-Blood Inn,Coke,4.39
-162,Cocktails and Dreams,Pepsi,6.04
-248,Munden's Bar,Dirty Shirley,11.86
-33,Salieri's Bar,Hotdog,2.36
-61,Munden's Bar,Cheesburger,6.85
-235,Central Perk,Coke,4.37
-219,The Jockey,Wings,4.48
-1,Brady Pub,Fried Chocolate Tarantula,9.79
-228,Bo Ling Chop Suey Palace,Wings,4.56
-19,Club Obi Wan,Hotdog,2.77
-123,The Grind & Jolt Cafe,Wings,4.76
-142,Milliway's,Hotdog,2.33
-194,Cooper's,Ice Tea,9.48
-136,The Rat in the Pot,Wings,4.39
-216,The Bronze,Water,5.22
-64,Kelcy's,Hotdog,2.19
-110,The Grind & Jolt Cafe,Coke,4.5
-23,Dino's Bar and Grill,Coke,4.9
-243,The Globe and Anchor,Coke,4.3
-214,Silver-Blood Inn,Water,5.38
-18,The George III,Coke,4.73
-123,The Grind & Jolt Cafe,Wings,4.93
-61,Munden's Bar,Wings,4.81
-42,McGinty's,Cheesburger,6.99
-95,O'Malley's,Ice Tea,9.25
-131,Free the Paedos,Water,5.59
-117,Elfsong Tavern,Fried Chocolate Tarantula,9.27
-89,Bodarks Bus Stop Restaurant,Cheesburger,6.37
-165,Talon,Wings,4.92
-170,O'Malley's,Coke,4.95
-76,Low Point,Cheesburger,6.01
-86,Porky's,Pepsi,6.97
-14,The Vulgar Unicorn,Hotdog,2.97
-96,The Blue Oyster Bar,Dirty Shirley,11.77
-138,The Slaughtered Lamb,Hotdog,2.59
-82,Bellefleur's Bar and Grill,Wings,4.74
-174,The Rusty Anchor,Pepsi,6.15
-169,Jenny's,Cheesburger,6.32
-249,The Count's Arms,Wings,4.48
-86,Porky's,Ice Tea,9.36
-197,The Broken Drum/The Mended Drum,Wings,4.91
-10,Ten Forward,Water,5.91
-177,Gaston's,Dirty Shirley,11.87
-243,The Globe and Anchor,Ice Tea,9.94
-41,Dino's Bar and Grill,Hotdog,2.5
-120,Club Sugar Ray,Wings,4.95
-178,The Grapes,Cheesburger,6.76
-185,The Rusty Anchor,Water,5.13
-64,Kelcy's,Coke,4.98
-119,The Learned Goat,Fried Chocolate Tarantula,9.32
-172,Central Perk,Fried Chocolate Tarantula,9.34
-69,The Crab Shed,Cheesburger,6.97
-203,Ten Forward,Fries,6.97
-81,Midnight Bell,Fried Chocolate Tarantula,9.87
-2,The Bannered Mare,Fries,9.87
-105,The George III,Hotdog,2.42
-201,Bob's Country Bunker,Ice Tea,9.11
-184,The Admiral Benbow Inn,Hotdog,2.67
-175,Mystic Grill,Coke,4.44
-27,The Loft,Ice Tea,9.6
-104,Cockatoo Inn,Water,5.89
-81,Midnight Bell,Wings,5.0
-164,The Oak and Crosier,Wings,4.26
-79,Essence,Water,5.71
-121,The Drunken Dragon Inn,Wings,4.7
-223,The White Hart,Fried Chocolate Tarantula,9.26
-98,The Crazy Horse,Wings,4.74
-110,The Grind & Jolt Cafe,Cheesburger,6.98
-205,The Grasshopper,Pepsi,6.88
-122,The Bigger Jigger,Hotdog,2.29
-225,The Mucky Duck,Wings,4.11
-215,The Tropicana,Coke,4.25
-171,Milliway's,Coke,4.66
-102,The White Hart,Dirty Shirley,11.04
-223,The White Hart,Ice Tea,9.72
-177,Gaston's,Water,5.69
-148,McGinty's,Fried Chocolate Tarantula,9.57
-203,Ten Forward,Water,5.45
-243,The Globe and Anchor,Hotdog,2.02
-120,Club Sugar Ray,Ice Tea,9.34
-219,The Jockey,Water,5.97
-35,Salty Sailor Tavern,Fries,5.97
-58,The Kebab & Calculator,Water,5.55
-77,Table Salt,Water,5.28
-31,Cooper's,Pepsi,6.17
-241,The Slaughtered Prince,Water,5.97
-119,The Learned Goat,Wings,4.63
-222,The Angler's Rest,Coke,4.36
-173,Kadie's Club Pecos,Wings,4.65
-107,Romanoff's,Wings,4.91
-205,The Grasshopper,Ice Tea,9.2
-235,Central Perk,Fries,9.2
-11,Deville,Dirty Shirley,11.44
-30,Kennedy's,Fries,11.44
-34,The Admiral Benbow Inn,Hotdog,2.41
-180,The Dog and Partridge,Coke,4.75
-169,Jenny's,Hotdog,2.25
-129,The Maidenhead,Cheesburger,6.7
-48,Playaz Club,Coke,4.82
-96,The Blue Oyster Bar,Wings,4.28
-47,Mickey Finn's Palace,Wings,4.38
-120,Club Sugar Ray,Fries,4.38
-102,The White Hart,Ice Tea,9.66
-107,Romanoff's,Fried Chocolate Tarantula,9.25
-196,The Six Jolly Fellowship Porters,Dirty Shirley,11.14
-25,The Swan & Paedo,Fried Chocolate Tarantula,9.49
-140,The Eolian - The Kingkiller Chronicle,Pepsi,6.36
-52,Night Spot,Ice Tea,9.95
-68,The Ink & Paint Club,Cheesburger,6.01
-43,Fortune Casino,Fries,6.01
-129,The Maidenhead,Fried Chocolate Tarantula,9.98
-101,The Railway Arms,Dirty Shirley,11.46
-27,The Loft,Fries,11.46
-131,Free the Paedos,Dirty Shirley,11.88
-18,The George III,Ice Tea,9.13
-205,The Grasshopper,Dirty Shirley,11.64
-106,The Frozen Hearth,Hotdog,2.62
-29,West Weald Inn,Water,5.8
-82,Bellefleur's Bar and Grill,Pepsi,6.47
-161,The Siren,Fried Chocolate Tarantula,9.83
-130,Milk,Fries,9.83
-228,Bo Ling Chop Suey Palace,Fried Chocolate Tarantula,9.97
-123,The Grind & Jolt Cafe,Cheesburger,6.07
-179,St. Elmo's Bar,Cheesburger,6.75
-126,Fangtasia,Fries,6.75
-49,Bodarks Bus Stop Restaurant,Water,5.19
-218,The Lost Lady Saloon,Dirty Shirley,11.99
-149,The Rabennest,Hotdog,2.7
-152,Sleeping Giant Inn,Coke,4.14
-8,The Rose & Crown,Pepsi,6.92
-94,The Bang Bang Bar,Coke,4.02
-239,The Drunken Clam,Water,5.58
-188,Fool and Bladder,Fries,5.58
-196,The Six Jolly Fellowship Porters,Dirty Shirley,11.48
-106,The Frozen Hearth,Fried Chocolate Tarantula,9.91
-185,The Rusty Anchor,Wings,4.47
-118,"The Hand & Racquet, East Cheam",Coke,4.31
-220,Founding Fathers,Cheesburger,6.34
-38,The Blue Oyster Bar,Coke,4.39
-30,Kennedy's,Water,5.77
-159,SU Bar,Water,5.68
-50,The Bull,Fries,5.68
-61,Munden's Bar,Cheesburger,6.41
-144,The Lord Nelson,Ice Tea,9.25
-191,The Lord Nelson,Hotdog,2.48
-177,Gaston's,Ice Tea,9.23
-120,Club Sugar Ray,Pepsi,6.05
-50,The Bull,Fries,6.05
-20,The Flowers of Gold,Coke,4.48
-55,The Golden Perch,Hotdog,2.1
-141,The King and Queen Tavern,Ice Tea,9.01
-111,Bodarks Bus Stop Restaurant,Pepsi,6.45
-59,The Cap & Bell,Coke,4.1
-68,The Ink & Paint Club,Cheesburger,6.02
-242,The Flying Horse,Coke,4.3
-65,Seagrass,Pepsi,6.06
-188,Fool and Bladder,Fried Chocolate Tarantula,9.95
-123,The Grind & Jolt Cafe,Water,5.21
-46,MacLaren's Pub,Hotdog,2.1
-66,The Rose & Thorn,Wings,4.69
-43,Fortune Casino,Water,5.52
-76,Low Point,Ice Tea,9.35
-153,The Winking Skeever,Wings,4.68
-177,Gaston's,Wings,4.43
-185,The Rusty Anchor,Wings,4.1
-184,The Admiral Benbow Inn,Hotdog,2.01
-20,The Flowers of Gold,Fried Chocolate Tarantula,9.25
-94,The Bang Bang Bar,Dirty Shirley,11.53
-87,Club Sugar Ray,Fries,11.53
-109,John McRory's Place,Fried Chocolate Tarantula,9.53
-4,The Crow's Nest,Cheesburger,6.18
-203,Ten Forward,Coke,4.32
-120,Club Sugar Ray,Coke,4.48
-22,The Orange Tree,Wings,4.99
-130,Milk,Pepsi,6.17
-194,Cooper's,Dirty Shirley,11.23
-154,The Archer,Hotdog,2.69
-97,The Kit Kat Klub,Ice Tea,9.23
-236,The Vulgar Unicorn,Pepsi,6.37
-201,Bob's Country Bunker,Coke,4.21
-65,Seagrass,Dirty Shirley,11.91
-232,The Slaughtered Prince,Dirty Shirley,11.74
-186,The Bloated Float Inn,Wings,4.15
-92,Thunderbrew Distillery,Cheesburger,6.06
-135,The Clansman,Water,5.4
-113,The Hanged Man,Water,5.73
-102,The White Hart,Dirty Shirley,11.42
-12,The Lizard's Head,Water,5.63
-47,Mickey Finn's Palace,Fries,5.63
-58,The Kebab & Calculator,Wings,4.54
-21,The Lamb & Flag,Fries,4.54
-28,LUX,Cheesburger,6.9
-248,Munden's Bar,Cheesburger,6.14
-227,Mancini's Family Restaurant,Wings,4.98
-113,The Hanged Man,Water,5.15
-118,"The Hand & Racquet, East Cheam",Fries,5.15
-113,The Hanged Man,Cheesburger,6.68
-3,Joe's,Cheesburger,6.61
-232,The Slaughtered Prince,Ice Tea,9.53
-52,Night Spot,Ice Tea,9.84
-212,SU Bar,Coke,4.48
-236,The Vulgar Unicorn,Hotdog,2.7
-70,The Regal Beagle,Coke,4.07
-226,Boobies,Pepsi,6.41
-151,The Learned Goat,Hotdog,2.08
-4,The Crow's Nest,Pepsi,6.92
-219,The Jockey,Ice Tea,9.28
-10,Ten Forward,Fried Chocolate Tarantula,9.38
-222,The Angler's Rest,Ice Tea,9.85
-170,O'Malley's,Dirty Shirley,11.33
-245,Inn of the Last Home,Pepsi,6.96
-134,The Rose & Thorn,Water,5.83
-171,Milliway's,Ice Tea,9.89
-95,O'Malley's,Dirty Shirley,11.37
-66,The Rose & Thorn,Wings,4.58
-119,The Learned Goat,Fried Chocolate Tarantula,9.73
-42,McGinty's,Fries,9.73
-4,The Crow's Nest,Wings,4.7
-148,McGinty's,Ice Tea,9.43
-164,The Oak and Crosier,Ice Tea,9.05
-38,The Blue Oyster Bar,Pepsi,6.32
+168,The Kebab & Calculator,Hotdog,11.46
+154,The Drunken Clam,Fries,10.58
+52,Café René,Cheesburger,3.16
+101,"Mos Eisley cantina, aka ""Chalmun's Cantina""",Fries,10.98
+243,The Silent Woman,Pepsi,2.64
+165,The Brick,Pepsi,2.25
+119,The Bang Bang Bar,Coke,6.03
+34,Seagrass,Ice Tea,2.32
+105,The Bronze,Ice Tea,2.99
+108,Lusty Leopard,Ice Tea,2.94
+187,The Loft,Pepsi,2.13
+13,The Red Boot Pub,Hotdog,11.65
+79,The Grey Mare,Coke,6.07
+113,The Brick,Fries,10.28
+23,The Winchester Tavern,Wings,12.8
+8,Mama Chow's Fine Dining,Cheesburger,3.58
+42,The King and Queen Tavern,Dirty Shirley,12.15
+16,The Hip Joint,Cheesburger,3.34
+3,Dead Man's Drink,Ice Tea,2.38
+229,Thunderbrew Distillery,Fried Chocolate Tarantula,8.89
+174,The Crow & Crown,Fried Chocolate Tarantula,8.56
+147,Weatherfield Arms,Wings,12.23
+39,Inn of the Last Home,Pepsi,2.61
+218,The Rose & Thorn,Wings,12.83
+186,Bo Ling Chop Suey Palace,Cheesburger,3.15
+88,The Peach Pit,Water,6.05
+133,The Griffin,Cheesburger,3.9
+211,Table Salt,Ice Tea,2.12
+54,Midnight Bell,Cheesburger,3.88
+94,Levy's,Pepsi,2.25
+143,The Hound Pits Pub,Fried Chocolate Tarantula,8.07
+26,Rovers Return Inn,Fried Chocolate Tarantula,8.51
+122,The Boatman,Fried Chocolate Tarantula,8.8
+55,The Lizard's Head,Coke,6.07
+143,The Hound Pits Pub,Water,6.9
+153,Poison,Water,6.04
+182,The Red Pony,Dirty Shirley,12.29
+236,Mickey's,Coke,6.86
+171,Mickey's,Wings,12.49
+204,Gallow's End Tavern,Coke,6.9
+105,The Bronze,Wings,12.83
+90,The Swan & Paedo,Water,6.59
+45,The Moonrakers,Fried Chocolate Tarantula,8.31
+196,The Flowers of Gold,Fried Chocolate Tarantula,8.9
+130,Mama Chow's Fine Dining,Fried Chocolate Tarantula,8.87
+17,Bob's Country Bunker,Fried Chocolate Tarantula,8.94
+228,Electric Psychedelic Pussycat Swingers Club,Wings,12.35
+233,Lucky Lockup,Dirty Shirley,12.66
+171,Mickey's,Cheesburger,3.07
+22,Porky's,Fried Chocolate Tarantula,8.33
+150,Broken Keel Tavern,Wings,12.47
+168,The Kebab & Calculator,Dirty Shirley,12.63
+249,The Hip Joint,Fries,10.11
+148,The Venusville Bar,Coke,6.08
+127,The Moonrakers,Water,6.14
+7,Copa,Ice Tea,2.69
+225,Joe's,Water,6.44
+128,The Hip Joint,Hotdog,11.29
+125,Stone's Throw/Scorched Bone/Setting Sun,Fried Chocolate Tarantula,8.23
+158,Dog And Duck,Pepsi,2.18
+24,The Malt Shovel,Ice Tea,2.69
+247,The Blue Parrot,Pepsi,2.99
+88,The Peach Pit,Hotdog,11.29
+57,The Mucky Duck,Water,6.59
+227,Club Obi Wan,Hotdog,11.38
+23,The Winchester Tavern,Pepsi,2.97
+177,Cocktails and Dreams,Ice Tea,2.81
+105,The Bronze,Fried Chocolate Tarantula,8.58
+65,The Moonrakers,Water,6.05
+181,The Rabennest,Water,6.05
+86,The Blue Parrot,Fries,10.3
+144,Snakehole Lounge,Fried Chocolate Tarantula,8.96
+145,New Found Out,Hotdog,11.42
+210,Volpe's,Water,6.56
+156,Seagrass,Fries,10.11
+143,The Hound Pits Pub,Dirty Shirley,12.67
+180,The Thorax Bar,Fries,10.9
+112,St. Elmo's Bar,Dirty Shirley,12.28
+151,West Weald Inn,Cheesburger,3.43
+243,The Silent Woman,Ice Tea,2.36
+121,Dog And Duck,Coke,6.96
+37,The Intersection,Cheesburger,3.28
+33,Trees Lounge,Ice Tea,2.22
+227,Club Obi Wan,Water,6.34
+109,The Winchester Club,Pepsi,2.81
+239,The Grapes,Ice Tea,2.06
+24,The Malt Shovel,Hotdog,11.44
+12,Cocktails and Dreams,Dirty Shirley,12.2
+151,West Weald Inn,Fried Chocolate Tarantula,8.27
+63,The Five Claws Lodge,Ice Tea,2.18
+163,The Blue Oyster Bar,Wings,12.73
+128,The Hip Joint,Cheesburger,3.08
+221,The Three Sisters' Inn,Dirty Shirley,12.34
+49,Milliway's,Fried Chocolate Tarantula,8.14
+184,The Golden Perch,Pepsi,2.3
+173,Old Prospector Saloon,Fries,10.62
+36,The Brick,Hotdog,11.3
+10,New Found Out,Dirty Shirley,12.34
+124,Sandbox,Wings,12.39
+207,Colonial Taphouse,Ice Tea,2.03
+101,"Mos Eisley cantina, aka ""Chalmun's Cantina""",Cheesburger,3.62
+16,The Hip Joint,Pepsi,2.03
+75,West Weald Inn,Wings,12.3
+194,The King and Queen Tavern,Coke,6.35
+52,Café René,Dirty Shirley,12.49
+79,The Grey Mare,Pepsi,2.81
+58,Cooper's,Water,6.89
+89,Table Salt,Hotdog,11.71
+240,The White Hart,Ice Tea,2.37
+24,The Malt Shovel,Coke,6.08
+45,The Moonrakers,Wings,12.72
+22,Porky's,Dirty Shirley,12.78
+6,LUX,Fried Chocolate Tarantula,8.22
+193,Ace of Clubs,Water,6.97
+172,The Three Sisters' Inn,Coke,6.21
+120,The Cap & Bell,Water,6.14
+137,Wandin Valley RSL,Fried Chocolate Tarantula,8.14
+53,Vardi's,Ice Tea,2.49
+134,The Lion and Unicorn,Wings,12.05
+12,Cocktails and Dreams,Ice Tea,2.73
+204,Gallow's End Tavern,Pepsi,2.35
+58,Cooper's,Pepsi,2.76
+61,Cheers,Hotdog,11.97
+109,The Winchester Club,Ice Tea,2.36
+55,The Lizard's Head,Wings,12.67
+152,Thunderbrew Distillery,Dirty Shirley,12.6
+103,The Boar's Head,Hotdog,11.98
+84,The Rat in the Pot,Pepsi,2.1
+72,West Weald Inn,Wings,12.33
+67,Puzzles,Water,6.89
+25,Inn of the Last Home,Water,6.67
+194,The King and Queen Tavern,Cheesburger,3.43
+69,The Venusville Bar,Water,6.07
+201,Alibi Bar,Dirty Shirley,12.48
+80,Cohan's,Coke,6.88
+27,"Mos Eisley cantina, aka ""Chalmun's Cantina""",Ice Tea,2.96
+176,The Monkey Bar,Cheesburger,3.85
+153,Poison,Fried Chocolate Tarantula,8.39
+160,The Earl Of Osbourne,Pepsi,2.67
+32,Mad Dog Saloon,Cheesburger,3.17
+47,The Blue Oyster Bar,Wings,12.22
+208,The Crab Shed,Fries,10.77
+185,West Weald Inn,Dirty Shirley,12.28
+150,Broken Keel Tavern,Fries,10.32
+93,The Earl Of Osbourne,Dirty Shirley,12.56
+230,Noah's Bar,Ice Tea,2.82
+74,The Butchers Arms,Fries,10.36
+89,Table Salt,Fries,10.73
+181,The Rabennest,Hotdog,11.05
+32,Mad Dog Saloon,Fried Chocolate Tarantula,8.68
+136,Grilby's,Coke,6.34
+101,"Mos Eisley cantina, aka ""Chalmun's Cantina""",Hotdog,11.83
+222,The Maidenhead,Cheesburger,3.42
+219,Wurstbraterei,Pepsi,2.41
+63,The Five Claws Lodge,Dirty Shirley,12.75
+60,Duke's Pub,Dirty Shirley,12.24
+91,The Third Rail,Fries,10.81
+224,Mama Chow's Fine Dining,Hotdog,11.37
+51,Colonial Taphouse,Cheesburger,3.24
+225,Joe's,Fried Chocolate Tarantula,8.74
+223,Rick's Café Américain,Fries,10.86
+249,The Hip Joint,Dirty Shirley,12.63
+199,Kavanagh's Irish Pub,Cheesburger,3.17
+204,Gallow's End Tavern,Cheesburger,3.75
+25,Inn of the Last Home,Wings,12.17
+15,The Siren,Pepsi,2.51
+221,The Three Sisters' Inn,Fries,10.99
+38,Jenny's,Hotdog,11.48
+61,Cheers,Cheesburger,3.44
+223,Rick's Café Américain,Dirty Shirley,12.33
+139,The Goat,Dirty Shirley,12.29
+60,Duke's Pub,Coke,6.8
+4,The Ragged Flagon,Wings,12.89
+35,The Bloated Float Inn,Pepsi,2.65
+175,Glenister's,Water,6.61
+101,"Mos Eisley cantina, aka ""Chalmun's Cantina""",Fried Chocolate Tarantula,8.9
+198,The Thorax Bar,Wings,12.56
+92,Inn of Ill Omen,Hotdog,11.2
+227,Club Obi Wan,Coke,6.65
+217,Wonder Bar,Wings,12.25
+166,Crab Shack,Dirty Shirley,12.34
+178,Charlie's,Coke,6.25
+19,The Silent Woman,Coke,6.63
+58,Cooper's,Ice Tea,2.1
+250,Maccadam's Old Oil House,Pepsi,3.0
+32,Mad Dog Saloon,Ice Tea,2.79
+40,Mystic Grill,Fried Chocolate Tarantula,8.32
+199,Kavanagh's Irish Pub,Wings,12.89
+192,The Aidensfield Arms,Ice Tea,2.94
+39,Inn of the Last Home,Dirty Shirley,12.01
+234,Deville,Fried Chocolate Tarantula,8.15
+146,The Monkey Bar,Wings,12.38
+211,Table Salt,Coke,6.77
+108,Lusty Leopard,Fries,10.67
+144,Snakehole Lounge,Coke,6.6
+39,Inn of the Last Home,Water,6.96
+129,Dexter Lake Club,Water,6.19
+69,The Venusville Bar,Dirty Shirley,12.14
+8,Mama Chow's Fine Dining,Water,6.87
+166,Crab Shack,Wings,12.48
+66,The Bada Bing,Dirty Shirley,12.62
+65,The Moonrakers,Dirty Shirley,12.94
+212,The Feathers,Ice Tea,2.02
+224,Mama Chow's Fine Dining,Ice Tea,2.94
+66,The Bada Bing,Ice Tea,2.42
+227,Club Obi Wan,Wings,12.18
+100,Volpe's,Cheesburger,3.38
+97,The Hand of Glory,Fries,10.72
+197,The Slaughtered Lamb,Ice Tea,2.68
+205,Brady Pub,Water,6.37
+187,The Loft,Fries,10.13
+49,Milliway's,Ice Tea,2.51
+79,The Grey Mare,Water,6.78
+233,Lucky Lockup,Pepsi,2.36
+214,New York Bar,Pepsi,2.6
+59,The Archer,Ice Tea,2.7
+65,The Moonrakers,Coke,6.26
+118,Maccadam's Old Oil House,Water,6.35
+103,The Boar's Head,Coke,6.4
+118,Maccadam's Old Oil House,Dirty Shirley,12.55
+161,Electric Psychedelic Pussycat Swingers Club,Cheesburger,3.9
+221,The Three Sisters' Inn,Fried Chocolate Tarantula,8.14
+91,The Third Rail,Pepsi,2.95
+82,New York Bar,Dirty Shirley,12.57
+206,The Grey Mare,Fried Chocolate Tarantula,8.18
+6,LUX,Fries,10.51
+125,Stone's Throw/Scorched Bone/Setting Sun,Cheesburger,3.04
+231,Blue Boar Inn,Dirty Shirley,12.43
+211,Table Salt,Fried Chocolate Tarantula,8.81
+214,New York Bar,Fried Chocolate Tarantula,8.94
+54,Midnight Bell,Hotdog,11.62
+198,The Thorax Bar,Hotdog,11.47
+112,St. Elmo's Bar,Fries,10.65
+165,The Brick,Hotdog,11.87
+236,Mickey's,Dirty Shirley,12.58
+171,Mickey's,Pepsi,2.87
+121,Dog And Duck,Dirty Shirley,12.13
+241,The Bull,Water,6.78
+158,Dog And Duck,Fried Chocolate Tarantula,8.72
+244,The Butchers Arms,Wings,12.57
+177,Cocktails and Dreams,Water,6.12
+75,West Weald Inn,Dirty Shirley,12.37
+229,Thunderbrew Distillery,Coke,6.53
+166,Crab Shack,Cheesburger,3.41
+31,Gateway Inn,Hotdog,11.83
+178,Charlie's,Fries,10.51
+234,Deville,Coke,6.23
+40,Mystic Grill,Ice Tea,2.26
+31,Gateway Inn,Dirty Shirley,12.72
+240,The White Hart,Wings,12.5
+248,The Skinners Arms,Water,6.1
+98,The Hanged Man,Cheesburger,3.21
+128,The Hip Joint,Ice Tea,2.46
+126,Boobies,Fries,10.35
+246,The Lost Lady Saloon,Cheesburger,3.95
+93,The Earl Of Osbourne,Fried Chocolate Tarantula,8.18
+157,New Found Out,Coke,6.04
+188,Fortune Casino,Fried Chocolate Tarantula,8.09
+64,Samoan Joe's,Hotdog,11.48
+170,The Armada Room,Coke,6.9
+28,Lucky Lockup,Fries,10.5
+134,The Lion and Unicorn,Fried Chocolate Tarantula,8.5
+15,The Siren,Fries,10.13
+219,Wurstbraterei,Coke,6.78
+27,"Mos Eisley cantina, aka ""Chalmun's Cantina""",Pepsi,2.66
+138,Maxwell's Nightclub,Dirty Shirley,12.17
+71,Glenister's,Water,6.42
+205,Brady Pub,Ice Tea,2.79
+10,New Found Out,Pepsi,2.08
+19,The Silent Woman,Cheesburger,3.13
+227,Club Obi Wan,Cheesburger,3.31
+143,The Hound Pits Pub,Wings,12.15
+12,Cocktails and Dreams,Fries,10.22
+8,Mama Chow's Fine Dining,Wings,12.57
+147,Weatherfield Arms,Water,6.13
+128,The Hip Joint,Pepsi,2.17
+10,New Found Out,Fries,10.89
+74,The Butchers Arms,Fried Chocolate Tarantula,8.96
+184,The Golden Perch,Cheesburger,3.94
+153,Poison,Cheesburger,3.09
+45,The Moonrakers,Cheesburger,3.44
+121,Dog And Duck,Ice Tea,2.12
+137,Wandin Valley RSL,Water,6.25
+67,Puzzles,Ice Tea,2.93
+81,The Venusville Bar,Water,6.78
+22,Porky's,Cheesburger,3.35
+84,The Rat in the Pot,Fried Chocolate Tarantula,8.22
+192,The Aidensfield Arms,Water,6.47
+235,"The Hand & Racquet, East Cheam",Wings,12.97
+179,The Mucky Duck,Coke,6.11
+140,MacLaren's,Coke,6.5
+58,Cooper's,Dirty Shirley,12.01
+15,The Siren,Ice Tea,2.42
+119,The Bang Bang Bar,Fried Chocolate Tarantula,8.17
+234,Deville,Water,6.0
+104,Weatherfield Arms,Hotdog,11.99
+60,Duke's Pub,Fried Chocolate Tarantula,8.58
+232,Thunderbrew Distillery,Cheesburger,3.09
+235,"The Hand & Racquet, East Cheam",Dirty Shirley,12.92
+82,New York Bar,Ice Tea,2.76
+35,The Bloated Float Inn,Cheesburger,3.52
+8,Mama Chow's Fine Dining,Coke,6.53
+112,St. Elmo's Bar,Hotdog,11.76
+191,The Three Broomsticks,Fries,10.75
+191,The Three Broomsticks,Fried Chocolate Tarantula,8.24
+75,West Weald Inn,Pepsi,2.93
+36,The Brick,Pepsi,2.77
+110,The Blue Oyster Bar,Fried Chocolate Tarantula,8.02
+16,The Hip Joint,Fried Chocolate Tarantula,8.64
+240,The White Hart,Dirty Shirley,12.18
+71,Glenister's,Wings,12.7
+151,West Weald Inn,Hotdog,11.47
+194,The King and Queen Tavern,Dirty Shirley,12.89
+56,Rick's Café Américain,Fries,10.0
+8,Mama Chow's Fine Dining,Fries,10.47
+13,The Red Boot Pub,Water,6.04
+216,Sandbox,Dirty Shirley,12.52
+186,Bo Ling Chop Suey Palace,Pepsi,2.17
+202,The Vigilante,Hotdog,11.24
+155,The Boom Boom Room,Dirty Shirley,12.03
+112,St. Elmo's Bar,Coke,7.0
+53,Vardi's,Water,6.41
+67,Puzzles,Pepsi,2.12
+49,Milliway's,Fries,10.65
+172,The Three Sisters' Inn,Hotdog,11.78
+164,The Hanged Man,Wings,12.72
+22,Porky's,Fries,10.99
+2,LUX,Coke,6.11
+94,Levy's,Ice Tea,2.23
+249,The Hip Joint,Wings,12.74
+184,The Golden Perch,Dirty Shirley,12.54
+189,The Rose & Thorn,Pepsi,2.94
+43,The Hip Joint,Water,6.37
+173,Old Prospector Saloon,Wings,12.92
+145,New Found Out,Water,7.0
+16,The Hip Joint,Hotdog,11.29
+48,Palace Saloon,Hotdog,11.88
+98,The Hanged Man,Pepsi,2.34
+19,The Silent Woman,Wings,12.54
+171,Mickey's,Hotdog,11.17
+121,Dog And Duck,Cheesburger,3.74
+91,The Third Rail,Hotdog,11.55
+230,Noah's Bar,Fries,10.5
+9,Poor Richard's,Wings,12.41
+127,The Moonrakers,Wings,12.83
+188,Fortune Casino,Dirty Shirley,12.91
+125,Stone's Throw/Scorched Bone/Setting Sun,Ice Tea,2.07
+68,The Buck's Head Inn,Pepsi,2.6
+130,Mama Chow's Fine Dining,Ice Tea,2.71
+154,The Drunken Clam,Coke,6.01
+59,The Archer,Pepsi,2.86
+61,Cheers,Dirty Shirley,12.16
+35,The Bloated Float Inn,Dirty Shirley,12.28
+62,The Admiral Benbow Inn,Ice Tea,2.78
+179,The Mucky Duck,Fries,10.43
+149,McAnally's,Dirty Shirley,12.51
+203,The Nag's Head,Fried Chocolate Tarantula,8.35
+75,West Weald Inn,Water,6.06
+204,Gallow's End Tavern,Fries,10.46
+233,Lucky Lockup,Ice Tea,2.97
+95,The Iron Horse,Hotdog,11.19
+177,Cocktails and Dreams,Pepsi,2.58
+111,The Drowned Trout,Cheesburger,3.67
+9,Poor Richard's,Water,6.54
+56,Rick's Café Américain,Pepsi,2.65
+109,The Winchester Club,Dirty Shirley,12.91
+191,The Three Broomsticks,Coke,6.14
+70,The Wicked Kiss,Wings,12.36
+16,The Hip Joint,Fries,10.04
+119,The Bang Bang Bar,Water,6.5
+75,West Weald Inn,Fried Chocolate Tarantula,8.73
+168,The Kebab & Calculator,Fries,10.73
+100,Volpe's,Dirty Shirley,12.85
+201,Alibi Bar,Fries,10.67
+165,The Brick,Fries,10.54
+161,Electric Psychedelic Pussycat Swingers Club,Hotdog,11.83
+3,Dead Man's Drink,Water,6.12
+213,Munden's Bar,Coke,6.37
+210,Volpe's,Wings,12.89
+45,The Moonrakers,Dirty Shirley,12.2
+61,Cheers,Fries,10.45
+136,Grilby's,Dirty Shirley,12.58
+223,Rick's Café Américain,Ice Tea,2.56
+207,Colonial Taphouse,Water,6.12
+211,Table Salt,Cheesburger,3.72
+7,Copa,Pepsi,2.39
+138,Maxwell's Nightclub,Water,6.76
+43,The Hip Joint,Coke,6.8
+41,Palace Saloon,Pepsi,3.0
+174,The Crow & Crown,Coke,6.65
+158,Dog And Duck,Dirty Shirley,12.96
+247,The Blue Parrot,Cheesburger,3.04
+175,Glenister's,Hotdog,11.02
+5,The Bannered Mare,Fries,10.43
+201,Alibi Bar,Hotdog,11.42
+125,Stone's Throw/Scorched Bone/Setting Sun,Dirty Shirley,12.07
+42,The King and Queen Tavern,Wings,12.03
+173,Old Prospector Saloon,Pepsi,2.93
+97,The Hand of Glory,Coke,6.65
+6,LUX,Water,6.74
+179,The Mucky Duck,Cheesburger,3.09
+162,The Plumbers Arms,Cheesburger,3.55
+20,Charlie's,Ice Tea,2.92
+192,The Aidensfield Arms,Dirty Shirley,12.12
+128,The Hip Joint,Fries,10.36
+232,Thunderbrew Distillery,Coke,6.5
+202,The Vigilante,Cheesburger,3.95
+92,Inn of Ill Omen,Wings,12.2
+101,"Mos Eisley cantina, aka ""Chalmun's Cantina""",Pepsi,2.13
+21,Mickey's,Fried Chocolate Tarantula,8.64
+229,Thunderbrew Distillery,Dirty Shirley,12.45
+169,Fitzgerald's,Hotdog,11.36
+21,Mickey's,Pepsi,2.14
+241,The Bull,Ice Tea,2.19
+77,The Three Broomsticks,Dirty Shirley,12.3
+94,Levy's,Hotdog,11.97
+236,Mickey's,Wings,12.47
+85,The Winchester Tavern,Coke,6.61
+11,O'Malley's,Ice Tea,2.47
+46,O'Malley's,Ice Tea,2.09
+47,The Blue Oyster Bar,Fried Chocolate Tarantula,8.23
+150,Broken Keel Tavern,Fried Chocolate Tarantula,8.15
+107,The Lamb & Flag,Coke,6.28
+165,The Brick,Ice Tea,2.38
+31,Gateway Inn,Wings,12.92
+30,Meibeyer's,Ice Tea,2.07
+221,The Three Sisters' Inn,Hotdog,11.84
+129,Dexter Lake Club,Ice Tea,2.26
+157,New Found Out,Ice Tea,2.16
+110,The Blue Oyster Bar,Fries,10.79
+6,LUX,Hotdog,11.79
+98,The Hanged Man,Wings,12.88
+142,The White Hart,Cheesburger,3.55
+21,Mickey's,Water,6.05
+71,Glenister's,Pepsi,2.26
+173,Old Prospector Saloon,Coke,6.0
+82,New York Bar,Wings,12.1
+143,The Hound Pits Pub,Pepsi,2.28
+211,Table Salt,Wings,12.66
+119,The Bang Bang Bar,Cheesburger,3.5
+85,The Winchester Tavern,Hotdog,11.19
+191,The Three Broomsticks,Dirty Shirley,12.82
+94,Levy's,Cheesburger,3.61
+84,The Rat in the Pot,Ice Tea,2.24
+83,The Lock,Water,6.23
+16,The Hip Joint,Dirty Shirley,12.06
+182,The Red Pony,Cheesburger,3.5
+107,The Lamb & Flag,Dirty Shirley,12.56
+223,Rick's Café Américain,Hotdog,11.37
+103,The Boar's Head,Wings,12.25
+126,Boobies,Ice Tea,2.02
+207,Colonial Taphouse,Fries,10.76
+217,Wonder Bar,Ice Tea,2.48
+15,The Siren,Wings,12.48
+199,Kavanagh's Irish Pub,Hotdog,11.04
+243,The Silent Woman,Dirty Shirley,12.17
+144,Snakehole Lounge,Ice Tea,2.65
+75,West Weald Inn,Ice Tea,2.17
+20,Charlie's,Water,6.93
+182,The Red Pony,Ice Tea,2.73
+107,The Lamb & Flag,Cheesburger,3.21
+187,The Loft,Wings,12.07
+36,The Brick,Wings,12.51
+148,The Venusville Bar,Wings,12.62
+183,The Dog and Partridge,Fried Chocolate Tarantula,8.36
+97,The Hand of Glory,Pepsi,2.24
+219,Wurstbraterei,Fries,10.79
+123,Inn of the Last Home,Fries,10.93
+160,The Earl Of Osbourne,Wings,12.91
+142,The White Hart,Coke,6.01
+160,The Earl Of Osbourne,Cheesburger,3.9
+160,The Earl Of Osbourne,Hotdog,11.68
+192,The Aidensfield Arms,Cheesburger,3.46
+162,The Plumbers Arms,Ice Tea,2.77
+42,The King and Queen Tavern,Hotdog,11.73
+72,West Weald Inn,Dirty Shirley,12.25
+107,The Lamb & Flag,Water,6.51
+46,O'Malley's,Cheesburger,3.1
+238,LUX,Ice Tea,2.64
+246,The Lost Lady Saloon,Hotdog,11.3
+225,Joe's,Dirty Shirley,12.97
+153,Poison,Wings,12.29
+196,The Flowers of Gold,Wings,12.88
+217,Wonder Bar,Fries,11.0
+94,Levy's,Dirty Shirley,12.23
+241,The Bull,Hotdog,11.48
+172,The Three Sisters' Inn,Pepsi,2.66
+155,The Boom Boom Room,Wings,12.24
+139,The Goat,Wings,12.38
+135,The Aigburth Arms,Fried Chocolate Tarantula,8.47
+146,The Monkey Bar,Dirty Shirley,12.89
+46,O'Malley's,Fries,10.0
+104,Weatherfield Arms,Water,6.75
+212,The Feathers,Fries,10.07
+46,O'Malley's,Water,6.23
+221,The Three Sisters' Inn,Water,6.01
+2,LUX,Wings,12.44
+36,The Brick,Fries,10.5
+50,Mystic Grill,Fried Chocolate Tarantula,8.79
+16,The Hip Joint,Coke,6.07
+198,The Thorax Bar,Fried Chocolate Tarantula,8.97
+14,The Downy Pelican,Dirty Shirley,12.82
+143,The Hound Pits Pub,Cheesburger,3.17
+209,Archie Bunker's Place,Hotdog,11.66
+52,Café René,Fried Chocolate Tarantula,8.61
