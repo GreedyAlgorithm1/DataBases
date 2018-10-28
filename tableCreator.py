@@ -253,15 +253,29 @@ def randomizeSellsTuples(relationShipTuples):
 
     # Dictionary of beers at a certain price
     beerPricesDict = {2 : [], 3 : [], 4 : [], 5 : [], 6 : [], 7 : [], 8 : [], 9 : [], 10 : [], 11 : [], 12 : []}
+    itemCount = 0
     for beer in relationShipTuples[1]:
         if(beer not in beerPricesDict.values()):
+            itemCount += 1
             randomPrice = random.randint(2, 12)
-            print("Appended!")
+            #print("Appended!")
             beerPricesDict[randomPrice].append(beer)
         else:
             print("This means that beer is already included which shouldnt really be the case")
 
-    print(beerPricesDict)
+    priceCount = 2
+    if(itemCount > 11):
+        with open("BeerHiearchy.txt", "w") as beerHiFile:
+            for value in beerPricesDict.values():
+                beerHiFile.write('${} {}\n'.format(priceCount, value))
+                priceCount += 1
+    else:
+        with open("ItemHiearchy.txt", "w") as itemHiFile:
+            for value in beerPricesDict.values():
+                itemHiFile.write('${} {}\n'.format(priceCount, value))
+                priceCount += 1
+
+    #print(beerPricesDict)
 
     tupleCount = 0
 
@@ -291,7 +305,7 @@ def randomizeSellsTuples(relationShipTuples):
                     priceSold = random.uniform(iterator, iterator + 1)
                     priceSold = round(priceSold, 2)
                     break
-                    
+
             barSellsBeerTuple = flattenRow.copy()
             barSellsBeer.append(barSellsBeerTuple)
             flattenRow.append(priceSold)
@@ -376,7 +390,6 @@ def extractCSVTuples():
                                 fileTuple[element].append(tempList[element])
                         attributeTuples.append(attribute)
                     except KeyError:
-                        counter -=1
                         print("No attribute found with: '{}'".format(attribute))
                     
                     currentFileTuple = fileTuple
@@ -398,8 +411,8 @@ def createRelationTable(tableName):
         relationAttributes = relationShipTuples.pop()
         relationAttributes.append("Price")
         relationAttributes[1] = "BarName"
-        print(relationAttributes)
-        print (relationShipTuples)
+        #print(relationAttributes)
+        #print (relationShipTuples)
 
         randomizedRelationShipTuples = randomizeSellsTuples(relationShipTuples)    
 
