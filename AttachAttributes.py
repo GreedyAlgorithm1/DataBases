@@ -12,32 +12,38 @@ def populateTable(csvFileName, csvTuples):
         print("I shouldnt really print but whatver")
         return
 
-def beerAttributes():
+def getCSVList(csvFileName):
 
-    manfList = getManfList()
-    if(manfList == None or manfList == []):
-        print("Manf list is empty")
-        return
+    currentList = []
+    try:
+        with open(csvFileName, "r") as csvFile:
+            reader = csv.reader(csvFile)
+            currentList = list(reader)
+    except FileNotFoundError:
+        print("File not Found")
+        return None
+    
+    return currentList
 
-    beerList = getBeerCSVList(manfList)
-    if(beerList == None or beerList == []):
-        print("Beer list is empty")
-        return
+def getListFromFile(txtFileName):
 
-    beerManfTuples = randomizeBeerManfTuples(beerList, manfList)
-    if(beerManfTuples == None or beerManfTuples == []):
-        print("BeerManfTuples is empty")
-        return
+    listFromText = []
+    try:
+        with open(txtFileName, "r") as txtFile:
+            for line in txtFile:
+                listFromText.append(line.rstrip())
 
-    tableName = "Beer2.csv"
+    except FileNotFoundError:
+        print("File not Found for manufacturers.")
+        return None
 
-    populateTable(tableName, beerManfTuples)
+    return listFromText
 
 def randomizeBeerManfTuples(beerList, manfList):
 
     beerManfTuples = []
 
-    beerCSVAttributes = beerList.pop(0)
+    beerAttributes = beerList.pop(0)
 
     for beerTuple in beerList:
         while True:
@@ -48,41 +54,82 @@ def randomizeBeerManfTuples(beerList, manfList):
                 beerManfTuples.append(beerManfTuple)
                 break
 
-    beerCSVAttributes.append("Manufacturer")
-    beerManfTuples.insert(0, beerCSVAttributes)
+    beerAttributes.append("Manufacturer")
+    beerManfTuples.insert(0, beerAttributes)
     return beerManfTuples
 
-def getBeerCSVList(listOfManf):
+def beerAttributes():
 
-    currentList = []
-    try:
-        with open("Beer.csv", "r") as csvFile:
-            reader = csv.reader(csvFile)
-            currentList = list(reader)
-    except FileNotFoundError:
-        print("File not Found")
-        return None
-    
-    return currentList
+    txtFileName = "Manufacturers.txt"
+    manfList = getListFromFile(txtFileName)
+    if(manfList == None or manfList == []):
+        print("Manf list is empty")
+        return
 
-def getManfList():
+    csvFileName = "Beer.csv"
+    beerList = getCSVList(csvFileName)
+    if(beerList == None or beerList == []):
+        print("Beer list is empty")
+        return
 
-    listOfManf = []
-    try:
-        with open("Manufacturers.txt", "r") as manfFile:
-            for manfName in manfFile:
-                manfString = manfName.strip()
-                listOfManf.append(manfString)
+    beerManfTuples = randomizeBeerManfTuples(beerList, manfList)
+    if(beerManfTuples == None or beerManfTuples == []):
+        print("BeerManfTuples is empty")
+        return
 
-    except FileNotFoundError:
-        print("File not Found for manufacturers.")
-        return None
+    tableName = "Beer3.csv"
 
-    return listOfManf
+    populateTable(tableName, beerManfTuples)
+
+def randomizeDrinkerTuples(drinkerList, fakeStreetAddresses, phoneNumbersList):
+
+    drinkerTuples = []
+
+    drinkerAttributes = drinkerList.pop(0)
+
+    for drinkerTuple in drinkerList:
+        while True:
+            newDrinkerTuple = drinkerTuple.copy()
+            fakeStreetAddress = random.choice(fakeStreetAddresses)
+            phoneNumber = random.choice(phoneNumbersList)
+            newDrinkerTuple.append(phoneNumber)
+            newDrinkerTuple.append(fakeStreetAddress)
+            if(newDrinkerTuple not in drinkerTuples):
+                drinkerTuples.append(newDrinkerTuple)
+                break
+
+    drinkerAttributes.append("Phone Number")
+    drinkerAttributes.append("Address")
+    drinkerTuples.insert(0, drinkerAttributes)
+    return drinkerTuples
 
 def DrinkerAttributes():
-    pass
 
+    txtFileName = "phoneNumbers.txt"
+    phoneNumbersList = getListFromFile(txtFileName)
+    if(phoneNumbersList == None or phoneNumbersList == []):
+        print("Phone number list is empty")
+        return
+    
+    txtFileName = "fakeStreetAddresses.txt"
+    fakeStreetsList = getListFromFile(txtFileName)
+    if(fakeStreetsList == None or fakeStreetsList == []):
+        print("Fake streets list is empty")
+        return
+
+    csvFileName = "Drinker.csv"
+    drinkerList = getCSVList(csvFileName)
+    if(drinkerList == None or drinkerList == []):
+        print("Drinker list is empty")
+        return
+
+    drinkerTuples = randomizeDrinkerTuples(drinkerList, fakeStreetsList, phoneNumbersList)
+    if(drinkerTuples == None or drinkerTuples == []):
+        print("Drinker tuples is empty")
+        return
+
+    tableName = "Drinker3.csv"
+    populateTable(tableName, drinkerTuples)
 def BarAttributes():
     pass
 
