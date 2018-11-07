@@ -130,9 +130,57 @@ def DrinkerAttributes():
 
     tableName = "Drinker3.csv"
     populateTable(tableName, drinkerTuples)
-def BarAttributes():
-    pass
 
+def randomizeBarTuples(barList, phoneNumbersList, fakeStreetAddresses):
+    barTuples = []
+
+    barAttributes = barList.pop(0)
+
+    for barTuple in barList:
+        while True:
+            newBarTuple = barTuple.copy()
+            barState = str(newBarTuple[2])
+            licenseNumber = str(random.randint(10000, 99999))
+            barLicense = barState + licenseNumber
+            fakeStreetAddress = random.choice(fakeStreetAddresses)
+            phoneNumber = random.choice(phoneNumbersList)
+            newBarTuple.append(barLicense)
+            newBarTuple.append(phoneNumber)
+            newBarTuple.append(fakeStreetAddress)
+            if(newBarTuple not in barTuples):
+                barTuples.append(newBarTuple)
+                break
+
+    barAttributes.append("License")
+    barAttributes.append("Phone Number")
+    barAttributes.append("Address")
+    barTuples.insert(0, barAttributes)
+    return barTuples
+
+def BarAttributes():
+    
+    txtFileName = "phoneNumbers.txt"
+    phoneNumbersList = getListFromFile(txtFileName)
+    if(phoneNumbersList == None or phoneNumbersList == []):
+        print("Phone numbers list is empty")
+        return
+
+    txtFileName = "fakeStreetAddresses.txt"
+    fakeStreetsList = getListFromFile(txtFileName)
+    if(fakeStreetsList == None or fakeStreetsList == []):
+        print("Fake streets list is empty")
+        return
+    
+    csvFileName = "Bar.csv"
+    barList = getCSVList(csvFileName)
+    if(barList == None or barList == []):
+        print("Bar list is empty")
+        return
+
+    barTuples = randomizeBarTuples(barList, phoneNumbersList, fakeStreetsList)
+
+    tableName = "Bar3.csv"
+    populateTable(tableName, barTuples)
 def main():
     userInput = -1
     while True:
